@@ -13,6 +13,19 @@ Show name is The complete monty python's flying circus.
 """
 The favors of python is Jpython, IronPython AnocodaPython etc.
 """
+#35 Reserved Words or Keywords.
+"""
+True, False, None.
+and, or, not, is.
+if, elif, else.
+for, while, break, continue, pass.
+return, with, yeild, assert, raise.
+from, import, as, lambda, nonlocal.
+in, del, def.
+try, except, finally.
+class, global.
+async, await.
+"""
 '''
 The feature's of python is:-
 1)Simple and Easy to learn.

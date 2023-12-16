@@ -6,4 +6,3 @@ if(num1>num2):
 else:
 	print("Second Number is Greater:",num2)
 '''
-print(open("introduction.py").read())
