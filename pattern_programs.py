@@ -10,7 +10,24 @@ n=int(input("Enter Some Number:"))
 for i in range(1,n+1):
 	print("* "*i);
 for i in range(1,n+1):
-	print("* "*(n-i))'''
+	print("* "*(n-i))
+-----------------------------------------
 n=int(input("Enter Some Number:"))
 for i in range(1,n+1):
-	print((" "*(n-i))+(" *"*i))
+	print("  "*(n-i)+("* "*i))
+-----------------------------------------
+n=int(input("Enter Some Number:"))
+for i in range(1,n+1):
+	print("  "*(n-i)+("* "*i))
+for j in range(1,n+1):
+	print(("  "*j)+"* "*(n-j))
+-----------------------------------------
+n=int(input("Enter Some Number:"))
+for i in range(1,n+1):
+	print((" "*(n-i))+"* "*)
+-----------------------------------------
+n=int(input("Enter Some Number:"))
+for i in range(1,n+1):
+	print(" "*(n-i)+("* "*i))
+for j in range(1,n+1):
+	print((" "*(j))+("* "*(n-j)))'''
