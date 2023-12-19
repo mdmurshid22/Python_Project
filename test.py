@@ -15,3 +15,5 @@ print("Num2:",num2)
 num1,num2=num2,num1
 print("Num1:",num1)
 print("Num2:",num2)'''
+#print("Idiot"+" "+input("Enter Your Name:"))
+print(input("Enter Your Name:")+" "+"idiot")
