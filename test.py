@@ -42,11 +42,25 @@ print("Multiplication:",input1*input2)
 print("Division:",input1/input2)
 print("Modulus:",input1%input2)
 print("Floor Division:",input1//input2)
-print("Exponentiation:",input1**input2)
-day=input("Enter First Number:")
+print("Exponentiation:",input1**input2)'''
+'''day=input("Enter First Number:")
 month=input("Enter First Number:")
 year=input("Enter First Number:")
 print(day,month,year,sep="/")
 print(day,month,year,sep="-")'''
 #import keyword
 #print(len(keyword.kwlist))
+#print(ord('A'))
+#print(chr(87))
+"""s="This is Python"
+print(s[8:14])
+print(s)
+print(id(s))
+print()
+s1=s.replace("Python","Java")
+print(s1)
+print(id(s1))
+a="This is a Python Class"
+b="Java and HTML"
+print(a[:9],b[9:])
+print(a[:9],b[0:4],a[10:16])"""
