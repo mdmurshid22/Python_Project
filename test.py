@@ -67,5 +67,17 @@ print(a[:9],b[0:4],a[10:16])"""
 """num1=int(input("Enter First Number:"))
 num2=int(input("Enter Second Number:"))
 print("Two Numbers is Equal" if num1 == num2 else "Number 1 is Bigger" if num1 > num2 else "Number 2 is Greater")"""
-a="56789"
-print(a[-3::-1]+a[3:])
+#a='56789'
+#print(a[-3::-1]+a[3:])
+#print(len(dir(str())))
+a=10
+b=20
+c=30
+print("A:",a)
+print("B:",b)
+print("C:",c)
+print()
+a,b,c=b,c,a
+print("A:",a)
+print("B:",b)
+print("C:",c)
