@@ -81,16 +81,7 @@ a,b,c=b,c,a
 print("A:",a)
 print("B:",b)
 print("C:",c)"""
-"""a=8
-b=8
-if a == b:
-	print("A:",a)
-	if a > b:
-		print("A:",a)
-	else:
-		print("Invalid")
-else:
-	print("Invalid")"""
+print(dir(str))
 s="This Is Python Classroom Classes"
 print("Upper Method:",s.upper())
 print("Lower Method:",s.lower())
@@ -107,5 +98,52 @@ print("Find Method:",s.find("z"))
 print("RFind Method:",s.rfind("z"))
 print("Index Method:",s.index("P"))
 print("RIndex Method:",s.rindex("P"))
-a="Python"
-print(a[-1].upper()+a[3]+a[1])
+ """
+ 'capitalize', 
+ 'casefold', 
+ 'center', 
+ 'count', 
+ 'encode', 
+ 'endswith', 
+ 'expandtabs', 
+ 'find', 
+ 'format', 
+ 'format_map', 
+ 'index', 
+ 'isalnum', 
+ 'isalpha', 
+ 'isascii',
+ 'isdecimal', 
+ 'isdigit', 
+ 'isidentifier', 
+ 'islower', 
+ 'isnumeric', 
+ 'isprintable', 
+ 'isspace', 
+ 'istitle', 
+ 'isupper', 
+ 'join', 
+ 'ljust', 
+ 'lower', 
+ 'lstrip', 
+ 'maketrans', 
+ 'partition', 
+ 'removeprefix', 
+ 'removesuffix', 
+ 'replace', 
+ 'rfind', 
+ 'rindex', 
+ 'rjust', 
+ 'rpartition', 
+ 'rsplit', 
+ 'rstrip', 
+ 'split', 
+ 'splitlines', 
+ 'startswith', 
+ 'strip', 
+ 'swapcase', 
+ 'title', 
+ 'translate', 
+ 'upper', 
+ 'zfill'
+ """
