@@ -52,15 +52,18 @@ print(day,month,year,sep="-")'''
 #print(len(keyword.kwlist))
 #print(ord('A'))
 #print(chr(87))
-"""s="This is Python"
-print(s[8:14])
-print(s)
+#s="This is Python"
+#print(s[8:14])
+'''print(s)
 print(id(s))
 print()
 s1=s.replace("Python","Java")
 print(s1)
-print(id(s1))
-a="This is a Python Class"
+print(id(s1))'''
+"""a="This is a Python Class"
 b="Java and HTML"
 print(a[:9],b[9:])
 print(a[:9],b[0:4],a[10:16])"""
+num1=int(input("Enter First Number:"))
+num2=int(input("Enter Second Number:"))
+print("Two Numbers is Equal" if num1 == num2 else "Number 1 is Bigger" if num1 > num2 else "Number 2 is Greater")
