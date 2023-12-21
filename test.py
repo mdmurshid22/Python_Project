@@ -81,7 +81,7 @@ a,b,c=b,c,a
 print("A:",a)
 print("B:",b)
 print("C:",c)"""
-print(dir(str))
+'''print(dir(str))
 s="This Is Python Classroom Classes"
 print("Upper Method:",s.upper())
 print("Lower Method:",s.lower())
@@ -97,53 +97,56 @@ print("RPartition Method:",s.rpartition("c"))
 print("Find Method:",s.find("z"))
 print("RFind Method:",s.rfind("z"))
 print("Index Method:",s.index("P"))
-print("RIndex Method:",s.rindex("P"))
- """
- 'capitalize', 
- 'casefold', 
- 'center', 
- 'count', 
- 'encode', 
- 'endswith', 
- 'expandtabs', 
- 'find', 
- 'format', 
- 'format_map', 
- 'index', 
- 'isalnum', 
- 'isalpha', 
- 'isascii',
- 'isdecimal', 
- 'isdigit', 
- 'isidentifier', 
- 'islower', 
- 'isnumeric', 
- 'isprintable', 
- 'isspace', 
- 'istitle', 
- 'isupper', 
- 'join', 
- 'ljust', 
- 'lower', 
- 'lstrip', 
- 'maketrans', 
- 'partition', 
- 'removeprefix', 
- 'removesuffix', 
- 'replace', 
- 'rfind', 
- 'rindex', 
- 'rjust', 
- 'rpartition', 
- 'rsplit', 
- 'rstrip', 
- 'split', 
- 'splitlines', 
- 'startswith', 
- 'strip', 
- 'swapcase', 
- 'title', 
- 'translate', 
- 'upper', 
- 'zfill'
- """
+print("RIndex Method:",s.rindex("P"))'''
+#Remove spaces with left at first(begining)s.lstrip()
+#Remove spaces with right at last(end) s.rstrip()
+#Remove spaces with both(begin and end)s.strip()
+"""
+'capitalize', 
+'casefold', 
+'center', 
+'count', 
+'encode', 
+'endswith', 
+'expandtabs', 
+'find', 
+'format', 
+'format_map', 
+'index', 
+'isalnum', 
+'isalpha', 
+'isascii',
+'isdecimal', 
+'isdigit', 
+'isidentifier', 
+'islower', 
+'isnumeric', 
+'isprintable', 
+'isspace', 
+'istitle', 
+'isupper', 
+'join', 
+'ljust', 
+'lower', 
+'lstrip', 
+'maketrans', 
+'partition', 
+'removeprefix', 
+'removesuffix',  
+'replace', 
+'rfind', 
+'rindex', 
+'rjust', 
+'rpartition', 
+'rsplit', 
+'rstrip', 
+'split', 
+'splitlines', 
+'startswith', 
+'strip', 
+'swapcase', 
+'title', 
+'translate', 
+'upper', 
+'zfill'
+"""
