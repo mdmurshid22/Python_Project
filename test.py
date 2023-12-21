@@ -64,6 +64,8 @@ print(id(s1))'''
 b="Java and HTML"
 print(a[:9],b[9:])
 print(a[:9],b[0:4],a[10:16])"""
-num1=int(input("Enter First Number:"))
+"""num1=int(input("Enter First Number:"))
 num2=int(input("Enter Second Number:"))
-print("Two Numbers is Equal" if num1 == num2 else "Number 1 is Bigger" if num1 > num2 else "Number 2 is Greater")
+print("Two Numbers is Equal" if num1 == num2 else "Number 1 is Bigger" if num1 > num2 else "Number 2 is Greater")"""
+a="56789"
+print(a[-3::-1]+a[3:])
