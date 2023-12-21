@@ -107,3 +107,5 @@ print("Find Method:",s.find("z"))
 print("RFind Method:",s.rfind("z"))
 print("Index Method:",s.index("P"))
 print("RIndex Method:",s.rindex("P"))
+a="Python"
+print(a[-1].upper()+a[3]+a[1])
