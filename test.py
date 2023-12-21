@@ -81,7 +81,7 @@ a,b,c=b,c,a
 print("A:",a)
 print("B:",b)
 print("C:",c)"""
-a=8
+"""a=8
 b=8
 if a == b:
 	print("A:",a)
@@ -90,4 +90,20 @@ if a == b:
 	else:
 		print("Invalid")
 else:
-	print("Invalid")
+	print("Invalid")"""
+s="This Is Python Classroom Classes"
+print("Upper Method:",s.upper())
+print("Lower Method:",s.lower())
+print("Title Method:",s.title())
+print("Swapcase Method:",s.swapcase())
+print("IsUpper Method:",s.isupper())
+print("IsLower Method:",s.islower())
+print("IsTitle Method:",s.istitle())
+print("StartsWith Method:",s.startswith("t"))
+print("EndsWith Method:",s.endswith("s"))
+print("Partition Method:",s.partition("c"))
+print("RPartition Method:",s.rpartition("c"))
+print("Find Method:",s.find("z"))
+print("RFind Method:",s.rfind("z"))
+print("Index Method:",s.index("P"))
+print("RIndex Method:",s.rindex("P"))
