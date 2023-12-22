@@ -154,6 +154,3 @@ upper()	Converts a string into upper case
 zfill()	Fills the string with a specified number of 0 values at the beginning
 Note: All string methods returns new values. They do not change the original string.
 """
-s="idiot"
-print(s.ljust(65),end="")
-print("k")
