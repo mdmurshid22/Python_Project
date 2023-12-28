@@ -35,7 +35,8 @@ if tamil >=35:
  		if maths >=35:
  			if science >=35:
  				if social >=53:
- 					print("All Subjects Pass:","Tamil:{} English:{} Maths:{} Science:{} Social:{}".format(tamil,english,maths,science,social))
- 					print("Percentage of All Subjects is:{:.1f}%".format(tamil,english,maths,science,social/5))
+ 					print("Tamil:{} pass\nEnglish:{} pass\nMaths:{} pass\nScience:{} pass\nSocial:{} pass".format(tamil,english,maths,science,social))
+ 					print("Total Marks:{}".format(tamil+english+maths+science+social))
+ 					print("Percentage of All Subjects is:{:.1f}%".format(tamil,english,maths,science,social/500*100))
 else:
-	print("Fail:","Tamil:{} English:{} Maths:{} Science:{} Social:{}".format(tamil,english,maths,science,social))'''
+	print("Fail\nTamil:{}\nEnglish:{}\nMaths:{}\nScience:{}\nSocial:{}".format(tamil,english,maths,science,social))'''
