@@ -40,7 +40,18 @@ if tamil >=35:
  					print("Percentage of All Subjects is:{:.1f}%".format(tamil,english,maths,science,social/500*100))
 else:
 	print("Fail\nTamil:{}\nEnglish:{}\nMaths:{}\nScience:{}\nSocial:{}".format(tamil,english,maths,science,social))'''
-import math
+'''import math
 d=dir(math)
 for x in d:
-	print(x)
+	print(x)'''
+num=int(input("How Many Subject Marks Do You Want:"))
+list=["Tamil","English","Maths","Science","Social"]
+for i in range(num):
+	l=[]
+	student_name=input("Enter Student Name:")
+	for x in range(5):
+		subject=int(input("Enter {} Mark:".format(list[x])))
+		l.append(subject)
+		output=sum(l)
+	print("Total Marks {} By {}".format(output,student_name))
+	print()
