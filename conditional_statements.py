@@ -38,4 +38,4 @@ if tamil >=35:
  					print("All Subjects Pass:","Tamil:{} English:{} Maths:{} Science:{} Social:{}".format(tamil,english,maths,science,social))
  					print("Percentage of All Subjects is:{:.1f}%".format(tamil,english,maths,science,social/5))
 else:
-	print("Fail:","Tamil:{} English:{} Maths:{} Science:{} Social:{}".format(tamil,english,maths,science,social))''s'
+	print("Fail:","Tamil:{} English:{} Maths:{} Science:{} Social:{}".format(tamil,english,maths,science,social))'''
