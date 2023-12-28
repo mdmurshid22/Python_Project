@@ -40,3 +40,7 @@ if tamil >=35:
  					print("Percentage of All Subjects is:{:.1f}%".format(tamil,english,maths,science,social/500*100))
 else:
 	print("Fail\nTamil:{}\nEnglish:{}\nMaths:{}\nScience:{}\nSocial:{}".format(tamil,english,maths,science,social))'''
+import math
+d=dir(math)
+for x in d:
+	print(x)
