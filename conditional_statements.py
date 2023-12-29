@@ -53,5 +53,11 @@ for i in range(num):
 		subject=int(input("Enter {} Mark:".format(list[x])))
 		l.append(subject)
 		output=sum(l)
+		if l[x] >= 35:
+			print("Pass {} subject {}".format(l[x],list[x]))
+		else:
+			print("Fail {} subject {}".format(l[x],list[x]))
 	print("Total Marks {} By {}".format(output,student_name))
 	print()
+
+
