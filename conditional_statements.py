@@ -129,6 +129,15 @@ elif degree.upper() == "DIPLOMA":
 		print("INVALID DEPARTMENT")
 else:
 	print("INVALID DEGREE!")'''
+"""slipper_name=eval(input("Enter Any List of 3 Slipper Name:"))
+for slip in range(2):
+	print("{} = {}".format(slipper_name[slip],2))
+i=""
+while i < slipper_name[2]:
+	print("{} = {}".format(slipper_name[2],1))
+	break"""
+
+
 
 
 
