@@ -86,7 +86,7 @@ elif city.upper() == "NAGAPATTINAM":
 	print("NAGAPATTINAM IS VERY GOOD")
 else:
 	print("INVALID CITY!")"""
-degree_name=input("Enter Any degree[ENGINEERING,ARTS AND SCIENCE,DIPLOMA]: ")
+'''degree_name=input("Enter Any degree[ENGINEERING,ARTS AND SCIENCE,DIPLOMA]: ")
 degree=degree_name.strip()
 if degree.upper() == "ENGINEERING":
 	department_name=input("Enter Any Department of Engineering[MECH,EEE,ECE,CSC]:")
@@ -128,13 +128,7 @@ elif degree.upper() == "DIPLOMA":
 	else:
 		print("INVALID DEPARTMENT")
 else:
-	print("INVALID DEGREE!")
-
-
-
-
-
-
+	print("INVALID DEGREE!")'''
 
 
 
