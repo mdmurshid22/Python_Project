@@ -1,3 +1,1 @@
-print("hujjathul baliga")
-print("kuttyma")
-print('idiot')
+print("idiot")
