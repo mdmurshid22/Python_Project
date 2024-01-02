@@ -35,6 +35,7 @@ if username.lower() == "admin":
 		print("Incorrect password")
 else:
 	print("Invalid username")
+----------------------------------------------------------------------------------------------
 side1=float(input("Enter first side of a triangle:"))
 side2=float(input("Enter second side of a triangle:"))
 side3=float(input("Enter third side of a triangle:"))
@@ -49,3 +50,16 @@ elif side2 == side3:
 else:
 	print("Scalene:%.1f %.1f %.1f No sides are equal." %(side1,side2,side3)) '''
 
+age=int(input("Enter your age above 70 to determine the ticket price for a movie based on the following conditions:"))
+if age <= 5:
+	print("Ticket is free:{} age".format(age))
+elif (age <= 6) && (age <= 12):
+	print("the ticket prize is $10:{} age".format(age))
+elif (age <= 13) && (age <= 17):
+	print("the ticket prize is $15:{} age".format(age))
+elif (age <= 18) && (age <= 59):
+	print("the ticket prize is $20:{} age".format(age))
+elif age >= 60:
+	print("the ticket prize is $12:{} age".format(age))
+else:
+	print("Invalid Input!")
