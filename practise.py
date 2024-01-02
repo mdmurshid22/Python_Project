@@ -25,7 +25,7 @@ Additionally, check if the user qualifies for a discount:
 
 * If the user is a student (yes/no), apply a 10% discount to the ticket price.
 * If the user is a senior citizen (yes/no), apply a 15% discount to the ticket price.
-Print the final ticket price considering the age, and if applicable, the discounts. '''
+Print the final ticket price considering the age, and if applicable, the discounts. 
 username=input("Enter a username:").strip()
 password=input("Enter a password:").strip()
 if username.lower() == "admin":
@@ -34,4 +34,17 @@ if username.lower() == "admin":
 	else:
 		print("Incorrect password")
 else:
-	print("Invalid username")
+	print("Invalid username") '''
+side1=float(input("Enter first side of a triangle:"))
+side2=float(input("Enter second side of a triangle:"))
+side3=float(input("Enter third side of a triangle:"))
+if side1 == side2 == side3:
+	print("Equilateral:{:.1f} All three sides are equal.".format(side1))
+elif side1 == side2:
+	print("Isosceles:{} and {} Two sides are equal.".format(side1,side2))
+elif side1 == side3:
+	print("Isosceles:{1} and {0} Two sides are equal.".format(side3,side1))
+elif side2 == side3:
+	print("Isosceles:{s3} and {s2} Two sides are equal.".format(s2=side2,s3=side3))
+else:
+	print("Scalene:%.1f %.1f %.1f No sides are equal." %(side1,side2,side3))
