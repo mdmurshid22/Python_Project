@@ -52,8 +52,8 @@ else:
 # If the user is a student (yes/no), apply a 10% discount to the ticket price.
 # If the user is a senior citizen (yes/no), apply a 15% discount to the ticket price.
 age=int(input("Enter your age above 70 to determine the ticket price for a movie based on the following conditions:"))
-student=input("If you are a student(yes/no)?:").strip()
-citizen=input("If you are a senior citizen(yes/no)?:").strip()
+student=input("If you are a student(yes/no)?:").strip().lower()
+citizen=input("If you are a senior citizen(yes/no)?:").strip().lower()
 if student == "yes":
 	if (age <= 13) | (age <= 17):
 		print("The ticket prize is $5 and age of:{} Discount 10% for student!".format(age))
