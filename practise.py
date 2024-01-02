@@ -53,13 +53,13 @@ else:
 age=int(input("Enter your age above 70 to determine the ticket price for a movie based on the following conditions:"))
 if age <= 5:
 	print("Ticket is free:{} age".format(age))
-elif (age <= 6) && (age <= 12):
-	print("the ticket prize is $10:{} age".format(age))
-elif (age <= 13) && (age <= 17):
-	print("the ticket prize is $15:{} age".format(age))
-elif (age <= 18) && (age <= 59):
-	print("the ticket prize is $20:{} age".format(age))
-elif age >= 60:
-	print("the ticket prize is $12:{} age".format(age))
+elif (age <= 6) | (age <= 12):
+	print("the ticket prize is $10 and age is:{}".format(age))
+elif (age <= 13) | (age <= 17):
+	print("the ticket prize is $15 and age is:{}".format(age))
+elif (age <= 18) | (age <= 59):
+	print("the ticket prize is $20 and age is:{}".format(age))
+elif (age <= 60) | (age <= 70):
+	print("the ticket prize is $12 and age is:{}".format(age))
 else:
 	print("Invalid Input!")
