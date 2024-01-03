@@ -65,7 +65,7 @@ if student == "yes":
 		print("Invalid Input!")
 if citizen == "yes":
 	if (age <= 5) | ((age <= 6) | (age <= 12)) | ((age <= 13) | (age <= 17)) | ((age <= 60) | (age <= 70)):
-		print("Ticket is free:{} age Discount 15% for senior citizen!".format(age))
+		print("Ticket is free and age of:{} Discount 15% for senior citizen!".format(age))
 	elif (age <= 18) | (age <= 59):
 		print("The ticket prize is $5 and age of:{} Discount 15% for senior citizen!".format(age))
 	else:
