@@ -48,9 +48,8 @@ elif side1 == side3:
 elif side2 == side3:
 	print("Isosceles:{s3} and {s2} Two sides are equal.".format(s2=side2,s3=side3))
 else:
-	print("Scalene:%.1f %.1f %.1f No sides are equal." %(side1,side2,side3)) '''
-# If the user is a student (yes/no), apply a 10% discount to the ticket price.
-# If the user is a senior citizen (yes/no), apply a 15% discount to the ticket price.
+	print("Scalene:%.1f %.1f %.1f No sides are equal." %(side1,side2,side3))
+-----------------------------------------------------------------------------------------------
 age=int(input("Enter your age above 70 to determine the ticket price for a movie based on the following conditions:"))
 student=input("If you are a student(yes/no)?:").strip().lower()
 citizen=input("If you are a senior citizen(yes/no)?:").strip().lower()
@@ -79,4 +78,4 @@ elif (age <= 13) | (age <= 17):
 elif (age <= 18) | (age <= 59):
 	print("The ticket is $20 and age of:{} age".format(age))
 elif (age <= 60) | (age <= 70):
-	print("The ticket is $12 and age of:{} age".format(age))
+	print("The ticket is $12 and age of:{} age".format(age)) '''
