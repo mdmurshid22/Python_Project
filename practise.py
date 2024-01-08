@@ -118,15 +118,16 @@ Expected Output:
 				break
 			else:
 				print("This {} is Not Divisible by 7".format(number))
-				break"""
+				break
+-----------------------------------------------------------------------------------------------------------------
 #2. Write a Python program that accepts a word from the user and reverses it.
 #Slice operators:-
-'''user_name=input("Enter Your Name:")
-print("username is:{} and reverse a username by using slice operators:{}".format(user_name,user_name[::-1]))'''
+user_name=input("Enter Your Name:")
+print("username is:{} and reverse a username by using slice operators:{}".format(user_name,user_name[::-1]))
 #reversed Method:-
-'''user_name=input("Enter Your Name:")
+user_name=input("Enter Your Name:")
 for x in reversed(user_name):
-	print(x,end="")'''
+	print(x,end="")
 #Python by using while_loop code:-
 user_name=input("Enter Your Name:")
 i=-1
@@ -135,4 +136,12 @@ while i >= -len(user_name):
 	l.append(user_name[i])
 	i-=1
 for x in l:
-	print(x,end="")
+	print(x,end="")"""
+#3. Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+for x in range(7):
+	if x == 3:
+		continue
+	elif x == 6:
+		continue
+	else:
+		print(x)
