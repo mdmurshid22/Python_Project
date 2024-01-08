@@ -132,7 +132,7 @@ elif number%7 == 0:
 			print("This {} is not Multiples of 5".format(number))
 	else:
 		print("This {} is not divisible by 7".format(number))'''
-for i in range(1500,2501):
+"""for i in range(1500,2501):
 	if i%7 == 0:
 		print("This {} is divisible by 7".format(i))
-		print("This {} is Multiples of 5".format(i*5))
+		print("This {}*5 is Multiples of 5".format(i*5))"""
