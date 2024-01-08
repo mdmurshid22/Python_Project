@@ -78,4 +78,45 @@ elif (age <= 13) | (age <= 17):
 elif (age <= 18) | (age <= 59):
 	print("The ticket is $20 and age of:{} age".format(age))
 elif (age <= 60) | (age <= 70):
-	print("The ticket is $12 and age of:{} age".format(age)) '''
+	print("The ticket is $12 and age of:{} age".format(age))
+
+1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2500 (both included).
+2. Write a Python program that accepts a word from the user and reverses it.
+3. Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+4. Write a Python program that iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers that are multiples of three and five, print "FizzBuzz".
+5. Write a Python program to check whether an alphabet is a vowel.
+6. Write a Python program to convert a month name to a number of days.
+Expected Output:
+
+List of months: January, February, March, April, May, June, July, August
+, September, October, November, December                                
+Input the name of Month: February                                       
+No. of days: 28/29 days 
+
+7. Write a Python program to create the multiplication table (from 1 to 10) of a number.
+
+8. Write a Python program to construct the following pattern, using a nested loop number.
+Expected Output:
+
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999'''
+#1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2500 (both included).
+while True:
+	number=int(input("Enter Any Number between 1500 to 2500:"))
+	if (number >= 1500 and number <= 2500) == number:
+		break
+if number%7 == 0:
+	print("This {} is divisible by 7".format(number))
+	if (number ** 5) == 0:
+		print("This {} is Multiples of 5".format(number))
+	else:
+		print("This {} is not Multiples of 5".format(number))
+else:
+	print("This {} is not divisible by 7".format(number))
