@@ -124,7 +124,15 @@ Expected Output:
 '''user_name=input("Enter Your Name:")
 print("username is:{} and reverse a username by using slice operators:{}".format(user_name,user_name[::-1]))'''
 #reversed Method:-
-user_name=input("Enter Your Name:")
-#print("username is:{} and reverse a username by using reversed method:{}".format(user_name,reversed(user_name)))
+'''user_name=input("Enter Your Name:")
 for x in reversed(user_name):
+	print(x,end="")'''
+#Python by using while_loop code:-
+user_name=input("Enter Your Name:")
+i=0
+l=[]
+while i < len(user_name):
+	l.append(user_name[i])
+	i+=1
+for x in l:
 	print(x,end="")
