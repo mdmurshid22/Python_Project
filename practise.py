@@ -108,13 +108,23 @@ Expected Output:
 88888888
 999999999'''
 #1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2500 (both included).
-while True:
-	name=input("Enter Any Number between 1500 to 2500:")
-	if name == "kuttyma":
-		print(name)
+'''while True:
+	num=int(input("Enter Any Number between 1500 to 2500:"))
+	if ((num <= 1500) & (num >= 2500)):
+		break
+		print(num)
+	 if num >= 1500:
+		if num <= 2500:
+			if num%7 == 0:
+				print("This {} is divisible by 7".format(num))
+				print("This {} is Multiples of 5".format(num*5))
+			else:
+				print("This {} is not divisible by 7".format(num))
+		else:
+			break
 		break
 
-'''elif number%7 == 0:
+elif number%7 == 0:
 		print("This {} is divisible by 7".format(number))
 		if number * 5:
 			print("This {} is Multiples of 5".format(number))
@@ -122,3 +132,7 @@ while True:
 			print("This {} is not Multiples of 5".format(number))
 	else:
 		print("This {} is not divisible by 7".format(number))'''
+for i in range(1500,2501):
+	if i%7 == 0:
+		print("This {} is divisible by 7".format(i))
+		print("This {} is Multiples of 5".format(i*5))
