@@ -132,7 +132,7 @@ user_name=input("Enter Your Name:")
 i=0
 l=[]
 while i < len(user_name):
-	l.append(user_name[i])
+	l.append(user_name[::-1][i])
 	i+=1
 for x in l:
 	print(x,end="")
