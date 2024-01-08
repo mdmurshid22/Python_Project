@@ -129,10 +129,10 @@ for x in reversed(user_name):
 	print(x,end="")'''
 #Python by using while_loop code:-
 user_name=input("Enter Your Name:")
-i=0
+i=-1
 l=[]
-while i < len(user_name):
-	l.append(user_name[::-1][i])
-	i+=1
+while i >= -len(user_name):
+	l.append(user_name[i])
+	i-=1
 for x in l:
 	print(x,end="")
