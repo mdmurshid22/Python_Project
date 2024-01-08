@@ -107,41 +107,16 @@ Expected Output:
 7777777
 88888888
 999999999'''
-#1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2500 (both included).
-'''while True:
-	num=int(input("Enter Any Number between 1500 to 2500:"))
-	if ((num <= 1500) & (num >= 2500)):
-		break
-		print(num)
-	 if num >= 1500:
-		if num <= 2500:
-			if num%7 == 0:
-				print("This {} is divisible by 7".format(num))
-				print("This {} is Multiples of 5".format(num*5))
+#1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5,
+#between 1500 and 2500 (both included).
+while True:
+	number=int(input("Enter Any Number between 1500 to 2500:"))
+	if number >= 1500:
+		if number <= 2500:
+			if number%7 == 0:
+				print("This {} is Divisible by 7".format(number),end=" ")
+				print("and Multiples of five:{}*5 = {}".format(number,number*5))
+				break
 			else:
-				print("This {} is not divisible by 7".format(num))
-		else:
-			break
-		break
-
-elif number%7 == 0:
-		print("This {} is divisible by 7".format(number))
-		if number * 5:
-			print("This {} is Multiples of 5".format(number))
-		else:
-			print("This {} is not Multiples of 5".format(number))
-	else:
-		print("This {} is not divisible by 7".format(number))'''
-"""for i in range(1500,2501):
-	if i%7 == 0:
-		print("This {} is divisible by 7".format(i))
-		print("This {}*5 is Multiples of 5".format(i*5))"""
-num=int(input("Enter Any Number between 1500 to 2500:"))
-if (num >= 1500):
-	if(num <= 2500):
-		print("This {} is divisible by 7".format(num))
-		print("This {}*5 is Multiples of 5".format(num*5))
-	else:
-		print("Invalid Input!")
-else:
-	print("Invalid Input!")
+				print("This {} is Not Divisible by 7".format(number))
+				break
