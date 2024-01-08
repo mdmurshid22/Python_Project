@@ -123,8 +123,8 @@ Expected Output:
 #Slice operators:-
 '''user_name=input("Enter Your Name:")
 print("username is:{} and reverse a username by using slice operators:{}".format(user_name,user_name[::-1]))'''
-#reversed Method by using List comprehension:-
+#reversed Method:-
 user_name=input("Enter Your Name:")
 #print("username is:{} and reverse a username by using reversed method:{}".format(user_name,reversed(user_name)))
-r=[x for x in reversed(user_name)]
-print(r,end="") 
+for x in reversed(user_name):
+	print(x,end="")
