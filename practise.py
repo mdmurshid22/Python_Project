@@ -109,18 +109,19 @@ Expected Output:
 999999999'''
 #1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5,
 #between 1500 and 2500 (both included).
-while True:
+"""while True:
 	number=int(input("Enter Any Number between 1500 to 2500:"))
-	if (number >= 1500) & (number <= 2500):
-		if number%7 == 0:
-			if number%5 == 0:
-				print("This {} is Divisible by 7".format(number),end=" ")
-				print("and Multiples of five is:{}".format(number))
+	if number >= 1500:
+		if number <= 2500:
+			if number%7 == 0:
+				if number%5 == 0:
+					print("This {} is Divisible by 7".format(number),end=" ")
+					print("and Multiples of five is:{}".format(number))
+					break
+			else:
+				print("This {} is Not Divisible by 7".format(number))
 				break
-		else:
-			print("This {} is Not Divisible by 7".format(number))
-			break
-"""-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 #2. Write a Python program that accepts a word from the user and reverses it.
 #Slice operators:-
 user_name=input("Enter Your Name:")
