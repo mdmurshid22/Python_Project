@@ -136,3 +136,12 @@ elif number%7 == 0:
 	if i%7 == 0:
 		print("This {} is divisible by 7".format(i))
 		print("This {}*5 is Multiples of 5".format(i*5))"""
+num=int(input("Enter Any Number between 1500 to 2500:"))
+if (num >= 1500):
+	if(num <= 2500):
+		print("This {} is divisible by 7".format(num))
+		print("This {}*5 is Multiples of 5".format(num*5))
+	else:
+		print("Invalid Input!")
+else:
+	print("Invalid Input!")
