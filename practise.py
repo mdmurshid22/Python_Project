@@ -107,19 +107,20 @@ Expected Output:
 7777777
 88888888
 999999999'''
-#1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5,between 1500 and 2500 (both included).
-"""while True:
+#1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5,
+#between 1500 and 2500 (both included).
+while True:
 	number=int(input("Enter Any Number between 1500 to 2500:"))
-	if number >= 1500:
-		if number <= 2500:
-			if number%7 == 0:
+	if (number >= 1500) & (number <= 2500):
+		if number%7 == 0:
+			if number%5 == 0:
 				print("This {} is Divisible by 7".format(number),end=" ")
-				print("and Multiples of five:{}*5 = {}".format(number,number*5))
+				print("and Multiples of five is:{}".format(number))
 				break
-			else:
-				print("This {} is Not Divisible by 7".format(number))
-				break
------------------------------------------------------------------------------------------------------------------
+		else:
+			print("This {} is Not Divisible by 7".format(number))
+			break
+"""-----------------------------------------------------------------------------------------------------------------
 #2. Write a Python program that accepts a word from the user and reverses it.
 #Slice operators:-
 user_name=input("Enter Your Name:")
@@ -145,7 +146,8 @@ for x in range(7):
 	elif x == 6:
 		continue
 	else:
-		print(x)"""
+		print(x)
+-------------------------------------------------------------------------------------------------------------------
 #4. Write a Python program that iterates the integers from 1 to 50. 
 #For multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". 
 #For numbers that are multiples of three and five, print "FizzBuzz".
@@ -156,4 +158,4 @@ for i in range(num+1):
 	elif i%3 == 0:
 		print(i,"Fizz")
 	elif i%5 == 0:
-		print(i,"Bizz")
+		print(i,"Bizz")"""
