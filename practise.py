@@ -136,7 +136,8 @@ while i >= -len(user_name):
 	l.append(user_name[i])
 	i-=1
 for x in l:
-	print(x,end="")"""
+	print(x,end="")
+------------------------------------------------------------------------------------------------------------------
 #3. Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
 for x in range(7):
 	if x == 3:
@@ -144,4 +145,15 @@ for x in range(7):
 	elif x == 6:
 		continue
 	else:
-		print(x)
+		print(x)"""
+#4. Write a Python program that iterates the integers from 1 to 50. 
+#For multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". 
+#For numbers that are multiples of three and five, print "FizzBuzz".
+num=int(input("Enter Any Number:"))
+for i in range(num+1):
+	if (i%3 == 0) & (i%5 == 0):
+		print(i,"FizzBuzz")
+	elif i%3 == 0:
+		print(i,"Fizz")
+	elif i%5 == 0:
+		print(i,"Bizz")
