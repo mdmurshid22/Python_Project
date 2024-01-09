@@ -237,4 +237,15 @@ num=int(input("Enter sum of number:"))
 result=0
 for x in range(1,num+1):
 	result=result+x
-print(result)"""
+print(result)
+#2. output:1*10
+           2*9
+           3*8
+           4*7
+		   5*6"""
+i=int(input("Enter First Number:"))
+j=int(input("Enter Second Number:"))
+while i <= j:
+	print(i,j)
+	i+=1
+	j-=1
