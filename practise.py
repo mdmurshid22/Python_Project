@@ -121,6 +121,13 @@ Expected Output:
 			else:
 				print("This {} is Not Divisible by 7".format(number))
 				break
+for i in range(1500,2501):
+	if i%7 == 0:
+		if i%5 == 0:
+			print("This {} is Divisible by 7".format(i),end=" ")
+			print("and Multiples of five is:{}".format(i))
+	else:
+		print("This {} is Not Divisible by 7".format(i))
 -----------------------------------------------------------------------------------------------------------------
 #2. Write a Python program that accepts a word from the user and reverses it.
 #Slice operators:-
