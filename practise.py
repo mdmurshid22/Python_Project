@@ -167,3 +167,12 @@ for i in range(num+1):
 		print(i,"Fizz")
 	elif i%5 == 0:
 		print(i,"Bizz")"""
+#5. Write a Python program to check whether an alphabet is a vowel.
+vowels="aeiouAEIOU"
+alphabet=input("Enter Any alphabet character:")
+index=0
+if index < len(vowels):
+	if vowels[index] == alphabet:
+		print("This is alphabet character:{}".format(alphabet))
+	else:
+		print("This is not alphabet character:{}".format(alphabet))
