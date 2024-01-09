@@ -217,7 +217,7 @@ Expected Output:
 666666
 7777777
 88888888
-999999999"""
+999999999
 num=int(input("Enter Any Number of Rows:"))
 for x in range(1,num+1):
-	print(str(x)*x)
+	print(str(x)*x)"""
