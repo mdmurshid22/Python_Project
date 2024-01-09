@@ -189,14 +189,14 @@ Expected Output:
 List of months: January:31, February:29, March:31, April:30, May:31, June:30, July:31, August:31,
 September:30, October:31, November:30, December:31.                                
 Input the name of Month: February                                       
-No. of days: 28/29 days
+No. of days: 28/29 days"""
 month=input("Enter Any Month:").strip().capitalize()
 if ('January' == month) | ('March' == month) | ('May' == month) | ('July' == month) | ('August' == month) | ('October' == month) | ('December' == month):
 	print("No. of days: 31 days in {}.".format(month))
 elif 'February' == month:
-	print("No. of days: 28/29 days in {}.".format(month))
+	print("No. of days: 29 days in {}.".format(month))
 elif ('April' == month) | ('June' == month) | ('September' == month) | ('November' == month):
 	print("No. of days: 30 days in {}.".format(month))
 else:
-	print("Invalid Input:{}".format(month))"""
+	print("Invalid Input:{}".format(month))
 #7. Write a Python program to create the multiplication table (from 1 to 10) of a number.
