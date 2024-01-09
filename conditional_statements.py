@@ -1,4 +1,4 @@
-#1)Find the greatest number of given three nuumber?
+#1 Find the greatest number of given three nuumber?
 '''num1=int(input("Enter First Number:"))
 num2=int(input("Enter Second Number:"))
 num3=int(input("Enter Third Number:"))
@@ -9,7 +9,7 @@ elif num2>num3:
 else:
 	print("Third Number is Greater:",num3)'''
 
-#2)Polindrome?
+#2 Polindrome?
 '''s=input("Enter Some String:")
 s1=s[::-1]
 if s == s1:
@@ -17,14 +17,14 @@ if s == s1:
 else:
 	print("It is not a Polindrome:",s)'''
 
-#Voting?
+#3 Voting?
 '''age=int(input("Enter Your Age:"))
 if age >= 18:
 	print("You are Eligible for voting:",age)
 else:
 	print("You are not Eligible for Voting:",age)'''
 
-#Pass or Fail program?
+#4 Pass or Fail program?
 '''tamil=int(input("Enter Tamil Mark:"))
 english=int(input("Enter English Mark:"))
 maths=int(input("Enter Maths Mark:"))
@@ -136,44 +136,3 @@ i=""
 while i < slipper_name[2]:
 	print("{} = {}".format(slipper_name[2],1))
 	break"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
