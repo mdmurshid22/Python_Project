@@ -238,14 +238,24 @@ result=0
 for x in range(1,num+1):
 	result=result+x
 print(result)
+----------------------------------------------------------------------------------------------------------------------------
 #2. output:1*10
            2*9
            3*8
            4*7
-		   5*6"""
+		   5*6
 i=int(input("Enter First Number:"))
 j=int(input("Enter Second Number:"))
 while i <= j:
 	print(i,j)
 	i+=1
 	j-=1
+-----------------------------------------------------------------------------------------------------------------------------
+#3. output:1 2 4 7 11 16 22 29 37"""
+number=int(input("Enter Any Number:"))
+initial_number=1
+multiply_number=0
+while multiply_number <= number:
+	initial_number=initial_number+multiply_number
+	multiply_number+=1
+	print(initial_number,end=" ")
