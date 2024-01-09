@@ -231,10 +231,10 @@ output=0
 while i <= num:
 	output=output+i
 	i+=1
-print(output)"""
+print(output)
 #Sum of first N Numbers by using for_loop?
 num=int(input("Enter sum of number:"))
 result=0
 for x in range(1,num+1):
 	result=result+x
-print(result)
+print(result)"""
