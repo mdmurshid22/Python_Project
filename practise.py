@@ -198,9 +198,26 @@ elif 'February' == month:
 elif ('April' == month) | ('June' == month) | ('September' == month) | ('November' == month):
 	print("No. of days: 30 days in {}.".format(month))
 else:
-	print("Invalid Input:{}".format(month))"""
+	print("Invalid Input:{}".format(month))
+-----------------------------------------------------------------------------------------------------------------------------
 #7. Write a Python program to create the multiplication table (from 1 to 10) of a number.
 num=int(input("Enter any table number:"))
 print("{} Table:-".format(num))
 for x in range(1,10+1):
 	print("{} * {} = {}".format(x,num,num*x))
+-----------------------------------------------------------------------------------------------------------------------------
+8. Write a Python program to construct the following pattern, using a nested loop number.
+Expected Output:
+
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999"""
+num=int(input("Enter Any Number of Rows:"))
+for x in range(1,num+1):
+	print(str(x)*x)
