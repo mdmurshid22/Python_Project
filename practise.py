@@ -259,3 +259,5 @@ while multiply_number <= number:
 	initial_number=initial_number+multiply_number
 	multiply_number+=1
 	print(initial_number,end=" ")"""
+#4. Write a Python program to given number is Prime or not:-
+#5, 7, 11, 13, 17, 19, 23 . . .
