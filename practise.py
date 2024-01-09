@@ -251,11 +251,11 @@ while i <= j:
 	i+=1
 	j-=1
 -----------------------------------------------------------------------------------------------------------------------------
-#3. output:1 2 4 7 11 16 22 29 37"""
+#3. output:1 2 4 7 11 16 22 29 37
 number=int(input("Enter Any Number:"))
 initial_number=1
 multiply_number=0
 while multiply_number <= number:
 	initial_number=initial_number+multiply_number
 	multiply_number+=1
-	print(initial_number,end=" ")
+	print(initial_number,end=" ")"""
