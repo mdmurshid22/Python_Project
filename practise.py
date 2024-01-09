@@ -179,7 +179,5 @@ while i < len(vowels):
 		if vowels[i] == x:
 			l.append(x) 
 	i+=1
-print("The vowels of to given substring is:",end=" ")
 for j in l:
 	print(j,end="")
-	
