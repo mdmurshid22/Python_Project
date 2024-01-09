@@ -221,3 +221,13 @@ Expected Output:
 num=int(input("Enter Any Number of Rows:"))
 for x in range(1,num+1):
 	print(str(x)*x)"""
+#1. Sum of first N Numbers by using while_loop?
+#input:7
+#output:1+2+3+4+5+6+7+8:36
+num=int(input("Enter sum of numbers:"))
+i=1
+output=0
+while i <= num:
+	output=output+i
+	i+=1
+print(output)
