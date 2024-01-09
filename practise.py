@@ -168,11 +168,18 @@ for i in range(num+1):
 	elif i%5 == 0:
 		print(i,"Bizz")"""
 #5. Write a Python program to check whether an alphabet is a vowel.
-vowels="aeiouAEIOU"
-alphabet=input("Enter Any alphabet character:")
-index=0
-if index < len(vowels):
-	if vowels[index] == alphabet:
-		print("This is alphabet character:{}".format(alphabet))
-	else:
-		print("This is not alphabet character:{}".format(alphabet))
+#input:ababababab
+#output:a=5
+char=input("Enter Any substring:")
+vowels='aeiouAEIOU'
+i=0
+l=[]
+while i < len(vowels):
+	for x in char:
+		if vowels[i] == x:
+			l.append(x) 
+	i+=1
+print("The vowels of to given substring is:",end=" ")
+for j in l:
+	print(j,end="")
+	
