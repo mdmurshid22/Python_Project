@@ -1,3 +1,20 @@
+Nth_number=int(input("Enter Nth of Prime Number:"))
+prime=True
+i,num,count=2,3,0
+print("Prime Numbers are:{}".format(2),end=" ")
+count+=1
+while count < Nth_number:
+	while num > i:
+		if num%i == 0:
+			print("Not a Prime:{}".format(num))
+			prime=False
+			break
+		i+=1
+		if prime == True:
+			print("{}".format(num),end=" ")
+			count+=1
+		num+=2
+		break
 """number=int(input("Enter Any Number:"))
 factorial=number
 while number > 1:
