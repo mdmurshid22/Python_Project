@@ -259,8 +259,9 @@ while multiply_number <= number:
 	initial_number=initial_number+multiply_number
 	multiply_number+=1
 	print(initial_number,end=" ")
+----------------------------------------------------------------------------------------------------------------------------
 #4. Write a Python program to given number is Prime or not:-
-#5, 7, 11, 13, 17, 19, 23 . . ."""
+#2, 3, 5, 7, 11, 13, 17, 19, 23 . . .
 num=int(input("Enter Any Number is prime or not:"))
 prime=True
 i=2
@@ -273,4 +274,14 @@ while i < num:
 if (num == 0) | (num == 1):
 	print("Neither a Prime Number nor a Composite Number, It's Unique Number.")
 elif prime == True:
-	print("Prime Number")
+	print("Prime Number")"""
+#5. Fibonacci series:-
+#0, 1, 1, 2, 3, 5, 8, 13 ...
+num=int(input("Enter Any Number:"))
+i=0
+j=1
+for x in range(num+1):
+	print(i,end=" ")
+	k=i+j
+	i=j
+	j=k
