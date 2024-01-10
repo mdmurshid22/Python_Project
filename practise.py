@@ -1,3 +1,9 @@
+"""number=int(input("Enter Any Number:"))
+factorial=number
+while number > 1:
+	number-=1
+	factorial=factorial*number
+print("The factorial of given number is:{}".format(factorial))"""
 ''' Implement a simple login system.
 * Ask the user to enter a username and password.
 * Check if the entered username is "admin."
