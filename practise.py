@@ -288,3 +288,17 @@ for x in range(num):
 	i=j
 	j=k"""
 #6. LCM(Least Common Multiple):-
+#Example 2,: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24 ...
+#Example 6,: 6, 12, 18, 24, 30, 36 ...
+n1=int(input("Enter First Number:"))
+n2=int(input("Enter Second Number:"))
+if n1 > n2:
+	max=n1
+else:
+	max=n2
+while True:
+	if (max%n1 == 0) & (max%n2 == 0):
+		lcm=max
+		break
+	max+=1
+print("LCM:{}".format(lcm))
