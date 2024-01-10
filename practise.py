@@ -316,3 +316,11 @@ while min >= 2:
 		print("GCD:{}".format(min))
 		break
 	min-=1"""
+#8. Find the Square root of given number:-
+root=int(input("Enter Any Number:"))
+i=2
+while(i <= root/2):
+	if(root/i == i):
+		print("Square Root of a Number is:{}".format(i))
+		break
+	i+=1  
