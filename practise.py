@@ -324,11 +324,12 @@ while(i <= root/2):
 	if(root/i == i):
 		print("Square Root of a Number is:{}".format(i))
 		break
-	i+=1"""
+	i+=1
+----------------------------------------------------------------------------------------------------------------------------------
 #9. Find the Factorial of given number:-
 num=int(input("Enter Any Number:"))
 fact=num
 while num > 1:
 	num-=1
 	fact=fact*num
-print("Factorial of given number is:{}".format(fact))
+print("Factorial of given number is:{}".format(fact))"""
