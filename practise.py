@@ -266,11 +266,13 @@ prime=True
 i=2
 while i < num:
 	if num%i == 0:
-		print("Not Prime, It's Composite Number")
+		print("Not Prime, It's Composite Number.")
 		prime=False
 		break
 	i+=1
-if (num == 0) | (num == 1):
-	print("Neither Prime or Composite Number")
+if num == 0:
+	pass
+elif num == 1:
+	print("Not Prime, It's Composite Number.")
 elif prime == True:
 	print("Prime Number")
