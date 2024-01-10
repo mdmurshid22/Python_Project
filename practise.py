@@ -281,6 +281,7 @@ if (num == 0) | (num == 1):
 	print("Neither a Prime Number nor a Composite Number, It's Unique Number.")
 elif prime == True:
 	print("Prime Number")
+-----------------------------------------------------------------------------------------------------------------------------
 #5. Fibonacci series:-
 #0, 1, 1, 2, 3, 5, 8, 13 ...
 num=int(input("Enter Any Number:"))
@@ -353,6 +354,7 @@ if reminder == reverse:
 else:
 	print("Not Palindrome:{}".format(reminder))
 print("Reverse a Number:{}".format(reverse))
+-------------------------------------------------------------------------------------------------------------------------------
 #11. Square of given numbers:-
 #1, 4, 27, 256 ...
 num=int(input("Enter Square number:"))
@@ -361,3 +363,23 @@ i=1
 while num >= i:
 	print(int(pow(i,i)),end=" ")
 	i+=1"""
+#12. Find the given Nth Prime Number:-
+number=int(input("Enter Nth Number:"))
+i=2
+prime=True
+count=0
+num=3
+print(2,end=" ")
+count+=1
+while count < number:
+	while i < num:
+		if num%i == 0:
+			print("Not a Prime:{}".format(num))
+			prime=False
+			break
+		i+=1
+		if prime == True:
+			print("{}".format(num),end=" ")
+			count+=1
+		num+=2
+		break
