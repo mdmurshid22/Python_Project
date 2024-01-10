@@ -340,7 +340,7 @@ while num > 1:
 	fact=fact*num
 print("Factorial of given number is:{}".format(fact))
 ---------------------------------------------------------------------------------------------------------------------------------
-#10. Reverse a Number and palindrome program:-"""
+#10. Reverse a Number and palindrome program:-
 number=int(input("Enter Any Number to Reverse:"))
 print("Number:{}".format(number))
 reminder=number
@@ -355,7 +355,7 @@ else:
 print("Reverse a Number:{}".format(reverse))
 #11. Square of given numbers:-
 #1, 4, 27, 256 ...
-"""num=int(input("Enter Square number:"))
+num=int(input("Enter Square number:"))
 from math import *
 i=1
 while num >= i:
