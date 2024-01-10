@@ -258,7 +258,7 @@ multiply_number=0
 while multiply_number <= number:
 	initial_number=initial_number+multiply_number
 	multiply_number+=1
-	print(initial_number,end=" ")"""
+	print(initial_number,end=" ")
 #4. Write a Python program to given number is Prime or not:-
 #5, 7, 11, 13, 17, 19, 23 . . .
 num=int(input("Enter Any Number is prime or not:"))
@@ -275,4 +275,4 @@ if num == 0:
 elif num == 1:
 	print("Not Prime, It's Composite Number.")
 elif prime == True:
-	print("Prime Number")
+	print("Prime Number")"""
