@@ -286,7 +286,8 @@ for x in range(num):
 		break
 	k=i+j
 	i=j
-	j=k"""
+	j=k
+----------------------------------------------------------------------------------------------------------------------------
 #6. LCM(Least Common Multiple):-
 #Example 2,: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24 ...
 #Example 6,: 6, 12, 18, 24, 30, 36 ...
@@ -301,4 +302,4 @@ while True:
 		lcm=max
 		break
 	max+=1
-print("LCM:{}".format(lcm))
+print("LCM:{}".format(lcm))"""
