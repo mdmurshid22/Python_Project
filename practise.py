@@ -280,8 +280,10 @@ elif prime == True:
 num=int(input("Enter Any Number:"))
 i=0
 j=1
-for x in range(num+1):
+for x in range(num):
 	print(i,end=" ")
+	if i == 13:
+		break
 	k=i+j
 	i=j
 	j=k
