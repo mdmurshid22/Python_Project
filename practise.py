@@ -338,12 +338,13 @@ fact=num
 while num > 1:
 	num-=1
 	fact=fact*num
-print("Factorial of given number is:{}".format(fact))"""
+print("Factorial of given number is:{}".format(fact))
+---------------------------------------------------------------------------------------------------------------------------------
 #10. Reverse a Number and palindrome program:-
-num=int(input("Enter Any Number:"))
-print("Actual Number:{}".format(num))
-rem=0
-while num > 0:
-	rem=(rem*10)+num%10
-	num=num//10
-print("Reverse a Number:{}".format(rem))
+number=int(input("Enter Any Number to Reverse:"))
+print("Number:{}".format(number))
+reverse=0
+while number > 0:
+	reverse=reverse*10+number%10
+	number=number//10
+print("Reverse a Number:{}".format(reverse))"""
