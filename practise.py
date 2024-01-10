@@ -287,3 +287,4 @@ for x in range(num):
 	k=i+j
 	i=j
 	j=k"""
+#6. LCM(Least Common Multiple):-
