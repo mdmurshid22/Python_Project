@@ -362,7 +362,7 @@ from math import *
 i=1
 while num >= i:
 	print(int(pow(i,i)),end=" ")
-	i+=1"""
+	i+=1
 #12. Find the given Nth Prime Number:-
 number=int(input("Enter Nth Number:"))
 i=2
@@ -382,4 +382,4 @@ while count < number:
 			print("{}".format(num),end=" ")
 			count+=1
 		num+=2
-		break
+		break"""
