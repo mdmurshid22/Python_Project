@@ -1,4 +1,4 @@
-Nth_number=int(input("Enter Nth of Prime Number:"))
+"""Nth_number=int(input("Enter Nth of Prime Number:"))
 prime=True
 i,num,count=2,3,0
 print("Prime Numbers are:{}".format(2),end=" ")
@@ -15,7 +15,7 @@ while count < Nth_number:
 			count+=1
 		num+=2
 		break
-"""number=int(input("Enter Any Number:"))
+number=int(input("Enter Any Number:"))
 factorial=number
 while number > 1:
 	number-=1
