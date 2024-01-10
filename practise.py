@@ -261,3 +261,14 @@ while multiply_number <= number:
 	print(initial_number,end=" ")"""
 #4. Write a Python program to given number is Prime or not:-
 #5, 7, 11, 13, 17, 19, 23 . . .
+num=int(input("Enter Any Number is prime or not:"))
+prime=True
+i=2
+while i < num:
+	if num%i == 0:
+		print("Not Prime")
+		prime=False
+		break
+	i+=1
+if prime == True:
+	print("Prime")
