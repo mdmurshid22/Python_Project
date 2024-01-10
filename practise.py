@@ -302,8 +302,9 @@ while True:
 		lcm=max
 		break
 	max+=1
-print("LCM:{}".format(lcm))"""
-#GCD(Greatest Common Divisor), HCF(Heighest Common Factor)
+print("LCM:{}".format(lcm))
+-------------------------------------------------------------------------------------------------------------------------------
+#7. GCD(Greatest Common Divisor), HCF(Heighest Common Factor)
 n1=int(input("Enter First Number:"))
 n2=int(input("Enter Second Number:"))
 if n1 < n2:
@@ -314,4 +315,4 @@ while min >= 2:
 	if (n1%min == 0) & (n2%min == 0):
 		print("GCD:{}".format(min))
 		break
-	min-=1
+	min-=1"""
