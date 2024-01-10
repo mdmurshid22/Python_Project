@@ -274,7 +274,7 @@ while i < num:
 if (num == 0) | (num == 1):
 	print("Neither a Prime Number nor a Composite Number, It's Unique Number.")
 elif prime == True:
-	print("Prime Number")"""
+	print("Prime Number")
 #5. Fibonacci series:-
 #0, 1, 1, 2, 3, 5, 8, 13 ...
 num=int(input("Enter Any Number:"))
@@ -286,4 +286,4 @@ for x in range(num):
 		break
 	k=i+j
 	i=j
-	j=k
+	j=k"""
