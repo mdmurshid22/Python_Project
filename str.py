@@ -41,7 +41,6 @@ while i <= 10:
 	i+=1
 print(a)
 ----------------------------------------------------------------------------------------------------------------
-'''
 a=0
 while True:
 	num=int(input("Enter Any Positive Number:"))
@@ -51,3 +50,12 @@ while True:
 	else:
 		a=a+num
 	print(a)
+-----------------------------------------------------------------------------------------------------------------
+'''
+while True:
+	name=input("Enter Any Name:")
+	if len(name) >= 5:
+		print(name)
+		break
+	else:
+		print(name)
