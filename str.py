@@ -6,6 +6,7 @@ while i > l:
 	output=output+string[i]
 	i-=1
 print(output)
+-----------------------------------------------------------------------------------------------------------------
 num=int(input('Enter Any Number:'))
 for i in range(num+1):
 	print('* '*i)
@@ -14,6 +15,7 @@ i=1
 while i <= num:
 	print("* "*i)
 	i+=1
+-----------------------------------------------------------------------------------------------------------------
 string=input("Enter Any String:")
 for i in string:
 	if i.isdigit() or i.isspace():
@@ -23,4 +25,19 @@ for i in string:
 			str=ord(i)+32
 		else:
 			str=ord(i)-32
-		print(chr(str),end="")'''
+		print(chr(str),end="")
+------------------------------------------------------------------------------------------------------------------
+num=int(input("Enter Any Number:"))
+i=1
+while i <= num:
+	if i%3 == 0 or i%5 == 0:
+		print(i)
+	i+=1
+-----------------------------------------------------------------------------------------------------------------
+'''
+i=1
+a=0
+while i <= 10:
+	a=a+i
+	i+=1
+print(a)
