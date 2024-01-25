@@ -42,3 +42,12 @@ while i <= 10:
 print(a)
 ----------------------------------------------------------------------------------------------------------------
 '''
+a=0
+while True:
+	num=int(input("Enter Any Positive Number:"))
+	if num < 0:
+		print(num)
+		break
+	else:
+		a=a+num
+	print(a)
