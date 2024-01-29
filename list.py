@@ -27,11 +27,19 @@ print(list.index(2))#To check the specified elememt of the index.
 print(list.insert(7,'l'))#None.
 list.insert(8,('j',8,7.7))#To insert a specified element to inserted at two arguments only first is index position another one is value or iterables.
 print(list)
-l1=[3,6,3,2,9,7,6]
+l1=['k','kk','idiot']
 print(l1)
-print(l1.sort(reverse=True))#To order of in our list is assending order and reverse=True is desending order.
+print(l1.sort(reverse=True))#To order of in our list is assending order and reverse=True is descending order.
 print(l1)
 print(l1.sort())
 print(l1)
 print(l1.sort(reverse=False))
 print(l1)
+print(list.reverse())#To reverse a all elements of the list.
+print(list)
+print(list.pop())#To remove at last element from the list.
+print(list)
+print(list.pop(3))#To remove a particular index position of a list.
+print(list)
+print(list.remove(''))#To remove first element of the given list.
+print(list)
