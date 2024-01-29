@@ -29,9 +29,9 @@ list.insert(8,('j',8,7.7))#To insert a specified element to inserted at two argu
 print(list)
 l1=[3,6,3,2,9,7,6]
 print(l1)
-l1.sort(reverse=True)
+print(l1.sort(reverse=True))
 print(l1)
-l1.sort()
+print(l1.sort())
 print(l1)
-l1.sort(reverse=False)
+print(l1.sort(reverse=False))
 print(l1)
