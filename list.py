@@ -1,0 +1,13 @@
+list=[7,8.8,True,False,5+9J,'k',"idiot"]
+print(type(list))
+print(list)
+list.append(['kk','kkk'])
+print(list)
+list.extend(('h',9,8,7))
+print(list)
+list.extend(['idiot'])
+print(list)
+list.extend(range(1,10))
+print(list)
+list.clear()
+print(list)
