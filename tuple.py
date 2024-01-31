@@ -7,9 +7,9 @@ print(tuple[1])
 print(tuple[2])
 print(tuple[3])
 print(tuple.count(7))#Syntax->t.count(Exactly one value)
-t=tuple.count(8)
+t=tuple.count(8)#count method is count in the tuple of values. 
 print(t)
-print(tuple.index(True))
-i=tuple.index(7)
+print(tuple.index(True))#To search the value and return the specified index or The value is not found Error value not in tuple.
+i=tuple.index(7)#Syntax->t.index(value)
 print(i)
 print(dir(tuple))
