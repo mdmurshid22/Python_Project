@@ -11,3 +11,4 @@ print(dict)
 d=dict[5]={1:2,2:3}
 print(dict)
 print(dict[5][1])
+print(dir(dict))
