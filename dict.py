@@ -48,4 +48,7 @@ value=8
 l=dict.fromkeys(keys,value)#Only display key-value, Iterable keys only allowed fromkeys(keys=required,value=optionl, default values is None).
 print(l)
 print(dict)
+g=dict.pop('k')
+print(g)
 print(dict.pop(False,'none'))#To remove the specified value is return if any key is does not exits raise the KeyError, if you can specified default value also.
+print(dict.popitem())#To remove the last key-value is return, popitem(No arguments passed)Methods.
