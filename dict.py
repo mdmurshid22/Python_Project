@@ -1,0 +1,13 @@
+dict={5:8,'k':7+9J,True:False,8:'idiot',5:7,6:7,8:8}
+print(dict)
+print(type(dict))
+print(len(dict))
+print(dict[5])
+print(dict[8])
+print(dict[True])
+d=dict[5]='KK'
+print(d)
+print(dict)
+d=dict[5]={1:2,2:3}
+print(dict)
+print(dict[5][1])
