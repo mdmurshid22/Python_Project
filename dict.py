@@ -11,4 +11,7 @@ print(dict)
 d=dict[5]={1:2,2:3}
 print(dict)
 print(dict[5][1])
-print(dir(dict))
+#print(dir(dict))
+a={'students':{'name':{'sname':'i','mark':10},'name':{'sname':'j','mark':20}}}
+print(a)
+print(a['students']['name']['mark'])
