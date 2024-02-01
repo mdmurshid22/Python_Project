@@ -43,3 +43,8 @@ print(df)
 h=dict.setdefault('True',"False1")#Setdefault Method() To set and update the key-value pairs if any key is specified and return the value.
 print(h)
 print(dict)
+keys=True,
+value=8
+l=dict.fromkeys(keys,value)#Only display 
+print(l)
+print(dict)
