@@ -17,3 +17,8 @@ print(a)
 b=a['students']['name']='idiot'
 print(b)
 print(a)
+d=a.copy()#Copy all elements from the Dictionay return deep copy. 
+print(d)
+a.clear()#Remove all elements from the Dictionay return {empty dict}.
+print(a)
+
