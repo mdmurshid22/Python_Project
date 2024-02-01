@@ -22,3 +22,16 @@ print(d)
 a.clear()#Remove all elements from the Dictionay return {empty dict}.
 print(a)
 print(dict.get(99,{8:9,7:9}))#To Get value by using get() method If the specified keys does not exit by default value is return.
+print(dict)
+print()
+kk=dict.keys()
+for x in kk:
+	print(x)
+print()
+vv=dict.values()
+for x in vv:
+	print(x)
+print()
+dd=dict.items()
+for x in dd:
+	print(x)
