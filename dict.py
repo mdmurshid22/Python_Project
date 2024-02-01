@@ -14,4 +14,6 @@ print(dict[5][1])
 #print(dir(dict))
 a={'students':{'name':{'sname':'i','mark':10},'name':{'sname':'j','mark':20}}}
 print(a)
-print(a['students']['name']['mark'])
+b=a['students']['name']='idiot'
+print(b)
+print(a)
