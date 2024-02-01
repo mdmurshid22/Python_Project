@@ -37,7 +37,7 @@ for x in dd:
 	print(x)
 print()
 print(dict)
-df=dict.update({5:{97:"7"}})#To Update Iterable Object Dictionay keys-value pairs If the specified keys does not exits Update key-values displayed. 
+df=dict.update({5:{97:"7"}})#To Update Iterable Object Dictionay, keys-value pairs If the specified keys does not exits Update key-values displayed. 
 print(dict)
 print(df)
 h=dict.setdefault('True',"False1")#Setdefault Method() To set and update the key-value pairs if any key is specified and return the value.
@@ -45,6 +45,7 @@ print(h)
 print(dict)
 keys=True,
 value=8
-l=dict.fromkeys(keys,value)#Only display 
+l=dict.fromkeys(keys,value)#Only display key-value, Iterable keys only allowed fromkeys(keys=required,value=optionl, default values is None).
 print(l)
 print(dict)
+print(dict.pop(False,'none'))#To remove the specified value is return if any key is does not exits raise the KeyError, if you can specified default value also.
