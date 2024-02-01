@@ -21,7 +21,7 @@ d=a.copy()#Copy all elements from the Dictionay return deep copy.
 print(d)
 a.clear()#Remove all elements from the Dictionay return {empty dict}.
 print(a)
-print(dict.get(99,{8:9,7:9}))#To Get value by using get() method If the specified keys does not exit by default value is return.
+print(dict.get(99,{8:9,7:9}))#To Get value by using get() method If the specified keys does not exits by default value is return.
 print(dict)
 print()
 kk=dict.keys()
@@ -35,3 +35,11 @@ print()
 dd=dict.items()
 for x in dd:
 	print(x)
+print()
+print(dict)
+df=dict.update({5:{97:"7"}})#To Update Iterable Object Dictionay keys-value pairs If the specified keys does not exits Update key-values displayed. 
+print(dict)
+print(df)
+h=dict.setdefault('True',"False1")
+print(h)
+print(dict)#
