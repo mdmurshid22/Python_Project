@@ -1,4 +1,4 @@
-dict={5:8,'k':7+9J,True:False,8:'idiot',5:7,6:7,8:8}
+'''dict={5:8,'k':7+9J,True:False,8:'idiot',5:7,6:7,8:8}
 print(dict)
 print(type(dict))
 print(len(dict))
@@ -52,3 +52,4 @@ g=dict.pop('k')
 print(g)
 print(dict.pop(False,'none'))#To remove the specified value is return if any key is does not exits raise the KeyError, if you can specified default value also.
 print(dict.popitem())#To remove the last key-value is return, popitem(No arguments passed)Methods.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------'''
