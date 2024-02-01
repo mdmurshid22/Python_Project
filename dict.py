@@ -21,4 +21,5 @@ d=a.copy()#Copy all elements from the Dictionay return deep copy.
 print(d)
 a.clear()#Remove all elements from the Dictionay return {empty dict}.
 print(a)
-
+f=dict.get(99,{8:9,7:9})#To Get value by using get() method any key is not alive default value also declared.
+print(f)
