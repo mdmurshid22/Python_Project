@@ -5,3 +5,5 @@ s=set()
 print(s)
 print(type(s))
 print(dir(set))
+print(s.add('k'))#set method() is add one elements to the set.
+print(s)
