@@ -15,3 +15,11 @@ s1=set1.copy()
 print(s1)
 #copy Method is to copy the all elements from the set to create new object.
 print(set1.copy())
+r=set1.remove(False)
+print(r)
+#remove Method is to remove some specidied element if the specified element does not exit raise KeyError. 
+print(set1.remove(7+9j))#None.
+print(set1.discard(True))#None.
+set1.discard(88)
+#discard Method is to remove some specified element if the specified element does not exit will won't raise Error.
+print(set1)
