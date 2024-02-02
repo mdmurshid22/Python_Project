@@ -6,7 +6,7 @@ print(s)
 print(type(s))
 print(dir(set))
 print(s.add('k'))#None.
-#set method(exactly one argument) is add one elements to the set.
+#add method(exactly one argument) is add one elements to the set.
 print(s)
 s.clear()
 #clear Method is to clear all elements from the set.
@@ -23,3 +23,18 @@ print(set1.discard(True))#None.
 set1.discard(88)
 #discard Method is to remove some specified element if the specified element does not exit will won't raise Error.
 print(set1)
+print(set1.pop())
+#pop(No argument) Method is remove some random element to the set.
+p=set1.pop()
+print(p)
+print(set1)
+s1={1,2,3,4,5}
+s2={3,4,5,6,7,'k'}
+print(s1)
+print(s2)
+print(s2.update(s1))#None
+#update Method(Iterable elements like-list,set,tuple,dict->keys only)is updated an Iterable elements to the set.
+print(s1)
+print(s2)
+s2.update({200,300,'idiot',400})
+print(s2)
