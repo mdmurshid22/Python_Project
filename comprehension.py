@@ -1,2 +1,2 @@
-d={x:x for x in {4:8,"k":'idiot',7.7:True}}
+d={x:x for x in range(6,0,-1)}
 print(d)
