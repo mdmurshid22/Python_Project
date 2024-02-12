@@ -4,7 +4,7 @@ def fun(name=''):
 f=fun(name=input('enter some string:'))
 for x in f:
 	l.append(x)
-print(l)'''
+print(l)
 def func(i):
 	l=[]
 	while True:	
@@ -13,8 +13,8 @@ def func(i):
 			i=int(input('enter some number:'))
 			continue
 		elif i >= -1:
-			break
+			pass
 		break
 	print(l)
 i=int(input('Enter Any Number:'))
-func(i)
+func(i)'''
