@@ -6,7 +6,7 @@ a=['a','b','c','d']
 l=[]
 for x in enumerate(a):
 	l.append(x)
-print(dict(l))'''
+print(dict(l))
 a=['a','b','c','d','f']
 b=[6,7,8,9,10]
-print(dict(zip(a[::-1],b[::-1])))
+print(dict(zip(a[::-1],b[::-1])))'''
