@@ -25,12 +25,23 @@ def fun():
 	#print(b)
 fun()
 print(b+1)
-#print(b)'''
+#print(b)
 def fun1():
 	a=10
 	print(a)
 	def fun2():
 		b=20
+		print(b)
+	fun2()
+fun1()'''
+def fun1():
+	global a
+	a=20
+	def fun2():
+		b=30
+		global a
+		a+=1
+		print(a)
 		print(b)
 	fun2()
 fun1()
