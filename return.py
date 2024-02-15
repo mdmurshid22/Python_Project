@@ -16,3 +16,13 @@ while i < l:
 	i+=1
 for x in l1:
 	print(chr(x),end="")'''
+#scope
+a=5
+def fun():
+	global b
+	b=30
+	print(b)
+	#print(b)
+fun()
+print(b+1)
+#print(b)
