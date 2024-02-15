@@ -45,3 +45,18 @@ def fun1():
 		print(b)
 	fun2()
 fun1()'''
+a=20
+def add1():
+	global a
+	a+=1
+	b=20
+	c=a+b
+	print(c)
+	def add2():
+		nonlocal b
+		b+=5
+		d=10
+		print(d)
+		print(c+d)
+	add2()
+add1()
