@@ -2,7 +2,7 @@
 	return a+b
 a=int(input('enter a value:'))
 b=int(input('enter b value:'))
-print(add(a,b))'''
+print(add(a,b))
 s='PyThonLanguage'
 print(s)
 l=len(s)-1
@@ -15,4 +15,4 @@ while i < l:
 		l1.append(ord(s[i])-32)
 	i+=1
 for x in l1:
-	print(chr(x),end="")
+	print(chr(x),end="")'''
