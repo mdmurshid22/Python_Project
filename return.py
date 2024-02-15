@@ -44,7 +44,7 @@ def fun1():
 		print(a)
 		print(b)
 	fun2()
-fun1()'''
+fun1()
 a=20
 def add1():
 	global a
@@ -59,4 +59,4 @@ def add1():
 		print(d)
 		print(c+d)
 	add2()
-add1()
+add1()'''
