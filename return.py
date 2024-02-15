@@ -26,3 +26,11 @@ def fun():
 fun()
 print(b+1)
 #print(b)'''
+def fun1():
+	a=10
+	print(a)
+	def fun2():
+		b=20
+		print(b)
+	fun2()
+fun1()
