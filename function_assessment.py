@@ -68,7 +68,7 @@ print('Even Number:{}'.format(even))
 print('Odd Number:{}'.format(odd))
 --------------------------------------------------------------------------------------------------------------
 7. Write a Python program to find the intersection of two given arrays using Lambda.
-A=[12,10,9,8,4,5,25] b=[13,45,10,4,25,45,56]'''
+A=[12,10,9,8,4,5,25] b=[13,45,10,4,25,45,56]
 a=[12,10,9,8,4,5,25]
 b=[13,45,10,4,25,45,56]
 i=0
@@ -79,3 +79,17 @@ while i < len(a):
 			l.append(a[i])
 	i+=1
 print(l)
+---------------------------------------------------------------------------------------------------------------
+8. Define a function in python that accepts 3 values and returns the maximum of three
+numbers.'''
+def max(n1,n2,n3):
+	if n1 > n2 and n1 > n3:
+		return n1
+	elif n2 > n3:
+		return n2
+	else:
+		return n3
+n1=int(input('enter first number:'))
+n2=int(input('enter second number:'))
+n3=int(input('enter third number:'))
+print(max(n1,n2,n3))
