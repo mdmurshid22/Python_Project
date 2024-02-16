@@ -54,4 +54,9 @@ vowels=['a','e','i','o','u']
 print(list(filter(lambda character:character not in vowels,character)))
 --------------------------------------------------------------------------------------------------------------
 5. Write a Python program to triple all numbers in a given list of integers. Use Python map.
-N=[2,3,4,5,6,7,8,9]'''
+N=[2,3,4,5,6,7,8,9]
+n=[2,3,4,5,6,7,8,9]
+print(list(map(lambda x:x*3,n)))
+--------------------------------------------------------------------------------------------------------------
+6. Write a Python program to filter even and odd number in a list using Lambda.
+N=[1,2,3,4,5,6,7,8,9,10,11,12,13]'''
