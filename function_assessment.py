@@ -59,4 +59,23 @@ n=[2,3,4,5,6,7,8,9]
 print(list(map(lambda x:x*3,n)))
 --------------------------------------------------------------------------------------------------------------
 6. Write a Python program to filter even and odd number in a list using Lambda.
-N=[1,2,3,4,5,6,7,8,9,10,11,12,13]'''
+N=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+n=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+even=list(filter(lambda n:n%2 == 0,n))
+odd=list(filter(lambda n:n%2 != 0,n))
+print('Original Number:{}'.format(n))
+print('Even Number:{}'.format(even))
+print('Odd Number:{}'.format(odd))
+--------------------------------------------------------------------------------------------------------------
+7. Write a Python program to find the intersection of two given arrays using Lambda.
+A=[12,10,9,8,4,5,25] b=[13,45,10,4,25,45,56]'''
+a=[12,10,9,8,4,5,25]
+b=[13,45,10,4,25,45,56]
+i=0
+l=[]
+while i < len(a):
+	for x in b:
+		if x == a[i]:
+			l.append(a[i])
+	i+=1
+print(l)
