@@ -102,4 +102,20 @@ def attendents(roll_no):
 	else:
 		return 'Absent'
 roll_no=int(input('enter your roll number:'))
-print(attendents(roll_no))'''
+print(attendents(roll_no))
+----------------------------------------------------------------------------------------------------------------
+10. Define a function which counts vowels and consonant in a word.'''
+counts=input('enter any string:')
+vowels=['a','e','i','o','u']
+def characters(counts):
+	index=0
+	l1,l2=[],[]
+	while index < len(counts):
+		if counts[index] in vowels:
+			l1.append(counts[index])
+		else:
+			l2.append(counts[index])
+		index+=1
+	print('vowel characters:{}'.format(l1))
+	print('consonent characters:{}'.format(l2))
+characters(counts)
