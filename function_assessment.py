@@ -95,11 +95,11 @@ n3=int(input('enter third number:'))
 print(max(n1,n2,n3))
 ---------------------------------------------------------------------------------------------------------------
 9. Define a function that accepts roll number and returns whether the student is present or
-absent.'''
+absent.
 def attendents(roll_no):
 	if roll_no >= 500 and roll_no <= 700:
 		return 'Present'
 	else:
 		return 'Absent'
 roll_no=int(input('enter your roll number:'))
-print(attendents(roll_no))
+print(attendents(roll_no))'''
