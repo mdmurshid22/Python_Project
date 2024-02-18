@@ -104,7 +104,7 @@ def attendents(roll_no):
 roll_no=int(input('enter your roll number:'))
 print(attendents(roll_no))
 ----------------------------------------------------------------------------------------------------------------
-10. Define a function which counts vowels and consonant in a word.'''
+10. Define a function which counts vowels and consonant in a word.
 counts=input('enter any string:')
 vowels=['a','e','i','o','u']
 def characters(counts):
@@ -119,3 +119,6 @@ def characters(counts):
 	print('vowel characters:{}'.format(l1))
 	print('consonent characters:{}'.format(l2))
 characters(counts)
+----------------------------------------------------------------------------------------------------------------
+11. Define a function that accepts radius and returns the area of a circle. Define a function that
+accepts radius and returns the area of a circle.'''
