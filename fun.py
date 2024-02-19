@@ -24,7 +24,8 @@ def fact(num):
 	else:
 		return num*fact(num-1)
 num=int(input('enter any number:'))
-print(fact(num))'''
+print(fact(num))
+-----------------------------------------------------------------------------------------------------------------------------
 number=int(input('enter any number and factorial is:'))
 def factorial(number):
 	if number == 1:
@@ -32,3 +33,5 @@ def factorial(number):
 	else:
 		return number*factorial(number-1)
 print(factorial(number))
+-----------------------------------------------------------------------------------------------------------------------------
+'''
