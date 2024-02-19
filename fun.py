@@ -36,3 +36,10 @@ print(factorial(number))
 -----------------------------------------------------------------------------------------------------------------------------
 '''
 #Iterator=>iter(),next() Methods.
+iter_method=eval(input('enter any iterable elements:'))
+inbuilt_method=iter(iter_method)
+print(next(inbuilt_method))
+print(next(inbuilt_method))
+print(next(inbuilt_method))
+print(next(inbuilt_method))
+print(next(inbuilt_method))
