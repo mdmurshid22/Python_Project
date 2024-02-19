@@ -17,11 +17,18 @@ n=input('enter your name:')
 a=int(input('enter your age:'))
 m=int(input('enter your mark:'))
 ad=input('enter your address:')
-my_fun(r,n,a,m,ad)'''
+my_fun(r,n,a,m,ad)
 def fact(num):
 	if num == 1:
 		return 1
 	else:
 		return num*fact(num-1)
 num=int(input('enter any number:'))
-print(fact(num))
+print(fact(num))'''
+number=int(input('enter any number and factorial is:'))
+def factorial(number):
+	if number == 1:
+		return 1
+	else:
+		return number*factorial(number-1)
+print(factorial(number))
