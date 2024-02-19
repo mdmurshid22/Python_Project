@@ -36,17 +36,3 @@ print(factorial(number))
 -----------------------------------------------------------------------------------------------------------------------------
 '''
 #Iterator=>iter(),next() Methods.
-i=eval(input('enter any iterator object:'))
-o=iter(i)
-#print(o)
-#print(type(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
-print(next(o))
