@@ -36,3 +36,5 @@ print(factorial(number))
 -----------------------------------------------------------------------------------------------------------------------------
 '''
 #Iterator=>iter(),next() Methods.
+#l=eval(input('enter any iterable object:'))
+#print([x for x in range(1,11)])
