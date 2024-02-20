@@ -138,5 +138,28 @@ o=gen(iterable_object)
 #print("{} of length is:{}".format(next(o)))
 for x in o:
 	print('{} is length of:{}'.format(x,len(x)))
-	-----------------------------------------------------------------------------------------------------------------------'''
-	
+---------------------------------------------------------------------------------------------------------------------------
+iterable_object=eval(input('enter any string:'))
+def gen(iterable_object):
+	l=[]
+	index = 0
+	while index < len(iterable_object):
+		yield iterable_object[index]
+		index+=1
+o=gen(iterable_object)
+#print("{} of length is:{}".format(next(o)))
+for x in o:
+	print('{}:{}'.format(x,len(x)))
+---------------------------------------------------------------------------------------------------------------------------
+iterable_object=eval(input('enter any string:'))
+def gen(iterable_object):
+	l=[]
+	index = 0
+	while index < len(iterable_object):
+		yield '{} and the length of:{}'.format(iterable_object[index],len(iterable_object[index]))
+		index+=1
+o=gen(iterable_object)
+print(next(o))
+print(next(o))
+print(next(o))
+---------------------------------------------------------------------------------------------------------------------------'''
