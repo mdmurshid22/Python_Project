@@ -64,4 +64,24 @@ for iteration in iterable_objects:
 print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
+----------------------------------------------------------------------------------------------------------------------------
+num=int(input('enter some number:'))
+def fact(num):
+	if num == 1:
+		return 1
+	else:
+		return num*fact(num-1)
+
+print(fact(num))
+----------------------------------------------------------------------------------------------------------------------------
+def fact(num):
+	f=num
+	while num > 1:
+		num-=1
+		f=f*num
+	print(f)
+	return f
+num=int(input('enter any number:'))
+print('The given number:{} and Factorial:{}'.format(num,fact(num)))
+fact(num)
 ----------------------------------------------------------------------------------------------------------------------------'''
