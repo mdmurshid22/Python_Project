@@ -36,10 +36,19 @@ print(factorial(number))
 -----------------------------------------------------------------------------------------------------------------------------
 '''
 #Iterator=>iter(),next() Methods.
-iter_method=eval(input('enter any iterable elements:'))
+'''iter_method=eval(input('enter any iterable elements:'))
 inbuilt_method=iter(iter_method)
 print(next(inbuilt_method))
 print(next(inbuilt_method))
 print(next(inbuilt_method))
 print(next(inbuilt_method))
-print(next(inbuilt_method))
+print(next(inbuilt_method))'''
+iterable_objects=eval(input('enter any iterable object:'))
+list=[]
+for iteration in iterable_objects:
+	if iteration%2 == 0:
+		list.append(iteration)
+	l=iter(list)
+print('even number:{}'.format(next(l)))
+print('even number:{}'.format(next(l)))
+print('even number:{}'.format(next(l)))
