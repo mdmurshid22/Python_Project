@@ -42,7 +42,7 @@ print(next(inbuilt_method))
 print(next(inbuilt_method))
 print(next(inbuilt_method))
 print(next(inbuilt_method))
-print(next(inbuilt_method))'''
+print(next(inbuilt_method))
 iterable_objects=eval(input('enter any iterable object:'))
 list=[]
 for iteration in iterable_objects:
@@ -51,4 +51,14 @@ for iteration in iterable_objects:
 	l=iter(list)
 print('even number:{}'.format(next(l)))
 print('even number:{}'.format(next(l)))
-print('even number:{}'.format(next(l)))
+print('even number:{}'.format(next(l)))'''
+#iterable_objects=eval(input('enter any iterable object:'))
+iterable_objects=[6,2,3,4,5,7,8,9,6,4]
+list=[]
+for iteration in iterable_objects:
+	if iteration%2 != 0:
+		list.append(iteration)
+	l=iter(list)
+print('odd number:{}'.format(next(l)))
+print('odd number:{}'.format(next(l)))
+print('odd number:{}'.format(next(l)))
