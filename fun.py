@@ -18,6 +18,7 @@ a=int(input('enter your age:'))
 m=int(input('enter your mark:'))
 ad=input('enter your address:')
 my_fun(r,n,a,m,ad)
+-----------------------------------------------------------------------------------------------------------------------------
 def fact(num):
 	if num == 1:
 		return 1
@@ -64,4 +65,3 @@ print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
 ----------------------------------------------------------------------------------------------------------------------------'''
-
