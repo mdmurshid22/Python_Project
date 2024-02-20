@@ -84,7 +84,7 @@ def fact(num):
 num=int(input('enter any number:'))
 print('The given number:{} and Factorial:{}'.format(num,fact(num)))
 fact(num)
-----------------------------------------------------------------------------------------------------------------------------'''
+----------------------------------------------------------------------------------------------------------------------------
 def gererator():
 	a='hii'
 	yield a
@@ -97,3 +97,19 @@ print(next(o))
 #print(next(gererator()))
 #print(next(gererator()))
 #print(next(gererator()))
+----------------------------------------------------------------------------------------------------------------------------
+string=input('enter any string:')
+def gen(string):
+	l=[]
+	index = 0
+	while index < len(string):
+		yield string[index]
+		index+=1
+o=gen(string)
+print(next(o),end='')
+print(next(o))
+print(next(o))
+print(next(o))
+print(next(o))
+#print(next(o))
+----------------------------------------------------------------------------------------------------------------------------'''
