@@ -85,3 +85,15 @@ num=int(input('enter any number:'))
 print('The given number:{} and Factorial:{}'.format(num,fact(num)))
 fact(num)
 ----------------------------------------------------------------------------------------------------------------------------'''
+def gererator():
+	a='hii'
+	yield a
+	b='bye'
+	yield b
+o=gererator()
+print(next(o))
+print(next(o))
+#print(next(o))
+#print(next(gererator()))
+#print(next(gererator()))
+#print(next(gererator()))
