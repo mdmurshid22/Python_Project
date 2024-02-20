@@ -51,7 +51,8 @@ for iteration in iterable_objects:
 	l=iter(list)
 print('even number:{}'.format(next(l)))
 print('even number:{}'.format(next(l)))
-print('even number:{}'.format(next(l)))'''
+print('even number:{}'.format(next(l)))
+----------------------------------------------------------------------------------------------------------------------
 #iterable_objects=eval(input('enter any iterable object:'))
 iterable_objects=[6,2,3,4,5,7,8,9,6,4]
 list=[]
@@ -62,3 +63,4 @@ for iteration in iterable_objects:
 print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
 print('odd number:{}'.format(next(l)))
+----------------------------------------------------------------------------------------------------------------------'''
