@@ -112,4 +112,18 @@ print(next(o))
 print(next(o))
 print(next(o))
 #print(next(o))
+----------------------------------------------------------------------------------------------------------------------------
+iterable_object=eval(input('enter any string:'))
+def gen(iterable_object):
+	l=[]
+	index = 0
+	while index < len(iterable_object):
+		yield iterable_object[index],len(iterable_object[index])
+		index+=1
+o=gen(iterable_object)
+print(next(o))
+print(next(o))
+print(next(o))
+print(next(o))
+print(next(o))
 ----------------------------------------------------------------------------------------------------------------------------'''
