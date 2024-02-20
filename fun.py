@@ -103,7 +103,7 @@ def gen(string):
 	l=[]
 	index = 0
 	while index < len(string):
-		yield string[index]
+		yield string[index],index
 		index+=1
 o=gen(string)
 print(next(o),end='')
