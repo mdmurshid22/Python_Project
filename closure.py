@@ -10,7 +10,7 @@ f=f1('idiot')
 f()
 print()
 del f1
-print(f())'''
+print(f())
 def add():
 	a='hii'
 	b=a
@@ -20,4 +20,4 @@ def add():
 	sub()
 	print(b)
 	print(a)
-add()
+add()'''
