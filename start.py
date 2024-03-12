@@ -27,9 +27,9 @@ class Per(Person):
 		super().__init__(a,b)
 		self.c = c
 	def home1(self):
-		print(self.a*self.b*self.c)
+		print(self.a+self.b+self.c)
 	def home2(self):
 		print(self.c)
-b=Per(90,80,70)
+b=Per(90,int(6),70)
 b.home1()
 b.home2()
