@@ -14,8 +14,7 @@ class Per(Person):
 		print(self.address)
 b=Per('idiot',22,'karaikal')
 b.home()
-b.home1()'''
-
+b.home1()
 class Person:
 	def __init__(self,a,b):
 		self.a = a
@@ -32,4 +31,4 @@ class Per(Person):
 		print(self.c)
 b=Per(90,int(6),70)
 b.home1()
-b.home2()
+b.home2()'''
