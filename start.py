@@ -63,7 +63,6 @@ print(s1.std_mark)
 print(s1.std_no)
 print(s1.std_name)
 -------------------------------------------------------------------------------------------------------------------------------------
-'''
 class Country:
 	my_town = "Neravy"
 	my_city = "Karaikal"
@@ -74,3 +73,5 @@ print("My Home Twon is:{} city:{} state:{} and country:{}".format(c1.my_town,c1.
 c2 = Country()
 print()
 print("My Home Twon is:{} city:{} state:{} and country:{}".format(c1.my_town,c1.my_city,c1.my_state,c1.my_country))
+--------------------------------------------------------------------------------------------------------------------------------------
+'''
