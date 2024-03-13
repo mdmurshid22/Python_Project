@@ -64,3 +64,13 @@ print(s1.std_no)
 print(s1.std_name)
 -------------------------------------------------------------------------------------------------------------------------------------
 '''
+class Country:
+	my_town = "Neravy"
+	my_city = "Karaikal"
+	my_state = "Puducherry"
+	my_country = "Indian"
+c1 = Country()
+print("My Home Twon is:{} city:{} state:{} and country:{}".format(c1.my_town,c1.my_city,c1.my_state,c1.my_country))
+c2 = Country()
+print()
+print("My Home Twon is:{} city:{} state:{} and country:{}".format(c1.my_town,c1.my_city,c1.my_state,c1.my_country))
