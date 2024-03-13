@@ -42,4 +42,25 @@ class Students:
 		self.stdaddr = stdaddr
 s=Students('idiot',98,'karai')
 -------------------------------------------------------------------------------------------------------------------------------------
+class Student:
+	std_name = 'idiot'
+	std_no = 22
+	std_mark = 354
+	std_addr = 'pavai'
+	def display(self):
+		print('Student Name:',self.std_name)
+		print('Student Number:',self.std_no)
+		print('Student Mark:',self.std_mark)
+		print('Student Address:',self.std_addr)
+s1 = Student()
+s1.display()
+print()
+s2 = Student()
+s2.display()
+print()
+print(s1.std_addr)
+print(s1.std_mark)
+print(s1.std_no)
+print(s1.std_name)
+-------------------------------------------------------------------------------------------------------------------------------------
 '''
