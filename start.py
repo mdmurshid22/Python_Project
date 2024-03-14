@@ -85,4 +85,22 @@ s2 = Students(33,'kk',78,'karai')
 print("Student Number:{} Name:{} Mark:{} and Address:{}".format(s1.std_no,s1.std_name,s1.std_mark,s1.std_addr))
 print("Student Number:{} Name:{} Mark:{} and Address:{}".format(s2.std_no,s2.std_name,s2.std_mark,s2.std_addr))
 --------------------------------------------------------------------------------------------------------------------------------------
+s = input('enter any string:')
+sp = s.split(' ')
+i = -1
+l = -len(sp)
+l1 = []
+while i >= l:
+	l1.append(sp[i])
+	i-=1
+print(s)
+for x in l1:
+	print(x,end=" ")
+--------------------------------------------------------------------------------------------------------------------------------------
 '''
+a=[15,4,8,14,6,1]
+for j in range(len(a)-1): #4
+     for i in range(len(a)-1):#4
+         if a[i]>a[i+1]:
+             a[i],a[i+1]=a[i+1],a[i]
+print(a)
