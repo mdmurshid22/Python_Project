@@ -74,4 +74,15 @@ c2 = Country()
 print()
 print("My Home Twon is:{} city:{} state:{} and country:{}".format(c1.my_town,c1.my_city,c1.my_state,c1.my_country))
 --------------------------------------------------------------------------------------------------------------------------------------
+class Students:
+	def __init__(self,std_no,std_name,std_mark,std_addr):
+		self.std_no = std_no
+		self.std_name = std_name
+		self.std_mark = std_mark
+		self.std_addr = std_addr
+s1 = Students(22,'idiot',89,'pavai')
+s2 = Students(33,'kk',78,'karai')
+print("Student Number:{} Name:{} Mark:{} and Address:{}".format(s1.std_no,s1.std_name,s1.std_mark,s1.std_addr))
+print("Student Number:{} Name:{} Mark:{} and Address:{}".format(s2.std_no,s2.std_name,s2.std_mark,s2.std_addr))
+--------------------------------------------------------------------------------------------------------------------------------------
 '''
