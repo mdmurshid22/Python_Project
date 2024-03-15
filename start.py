@@ -156,10 +156,24 @@ class Person:
 p=Person()
 p.sum1()
 ----------------------------------------------------------------------------------------------------------------------------------------
-'''
 class Person:
 	def __init__(self,name):
 		self._name = name
 
 p=Person('Kk')
 print(p._name)
+----------------------------------------------------------------------------------------------------------------------------------------
+'''
+class Person:
+	def home(self):
+		print("Public!")
+	def __home(self):
+		print('Private!')
+	def home1(self):
+		self.__home()
+	def _home(self):
+		print("Protected!")
+p=Person()
+p.home()
+p._home()
+p.home1()
