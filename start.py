@@ -141,6 +141,8 @@ class Person:
 		self.no = no
 p=Person('idiot',87)
 #print(p.__name)
+p.__name = 'k'
+print(p.__name)
 print(p.no)
 p.no=90
 print(p.no)
