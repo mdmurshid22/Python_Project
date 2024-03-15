@@ -114,3 +114,17 @@ print(a)
 print(l)
 --------------------------------------------------------------------------------------------------------------------------------------
 '''
+#Both class and instance atttributes.
+class Details:
+	country = 'Indian'
+	state  = 'Puducherry'
+	city = 'Karaikal'
+	town = 'Neravy'
+	def __init__(self,name,age,mark):
+		self.name = name
+		self.age = age
+		self.mark = mark
+d1 = Details('Idiot',19,89)
+print("My Name:{} age:{} and Mark:{} Town:{} City:{} State:{} Country:{}".format(d1.name,d1.age,d1.mark,d1.town,d1.city,d1.state,d1.country))
+d1 = Details('K',20,891)
+print("My Name:{} age:{} and Mark:{} Town:{} City:{} State:{} Country:{}".format(d1.name,d1.age,d1.mark,d1.town,d1.city,d1.state,d1.country))
