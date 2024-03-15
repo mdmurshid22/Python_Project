@@ -141,7 +141,7 @@ class Person:
 		self.no = no
 p=Person('idiot',87)
 #print(p.__name)
-p.__name = 'k'
+p.__name = 'Kk'
 print(p.__name)
 print(p.no)
 p.no=90
