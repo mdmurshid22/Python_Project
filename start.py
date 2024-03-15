@@ -133,3 +133,14 @@ print(dir(d1))
 print(dir(d2))
 ---------------------------------------------------------------------------------------------------------------------------------------
 '''
+#Class attributes will always be outside the __init__ method.
+#Instance attributes are defined inside the __init__ method.
+class Person:
+	def __init__(self,name,no):
+		self.__name = name
+		self.no = no
+p=Person('idiot',87)
+#print(p.__name)
+print(p.no)
+p.no=90
+print(p.no)
