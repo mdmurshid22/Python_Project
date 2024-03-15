@@ -139,8 +139,10 @@ class Person:
 	def __init__(self,name,no):
 		self.__name = name
 		self.no = no
+	def sum(self):
+		print(self.__name)
 p=Person('idiot',87)
-#print(p.__name)
+p.sum()
 p.__name = 'Kk'
 print(p.__name)
 print(p.no)
