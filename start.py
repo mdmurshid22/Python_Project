@@ -140,7 +140,8 @@ class Person:
 		self.no = no
 	def sum(self):
 		print(self.__name)
-p=Person('idiot',87)
+p=Person('idi
+ot',87)
 p.sum()
 p.__name = 'Kk'
 print(p.__name)
