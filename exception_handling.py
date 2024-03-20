@@ -7,6 +7,8 @@ finally:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
 try:
+	a='idiot'
+	print(b)
 	a=(9,7,7)
 	a[3]=99
 	print(6+'0')
@@ -15,5 +17,5 @@ except ZeroDivisionError:
 	print('hi')
 except TypeError:
 	print('bye')
-except Exception as e:
-	print(e)
+except NameError:
+	print('Guys')
