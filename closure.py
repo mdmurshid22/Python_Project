@@ -1,4 +1,4 @@
-'''def f1(message):
+def f1(message):
 	msg=message
 	print('outer function')
 	def f2():
@@ -20,4 +20,4 @@ def add():
 	sub()
 	print(b)
 	print(a)
-add()'''
+add()
