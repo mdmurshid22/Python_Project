@@ -45,4 +45,14 @@ Constraints
 Input
 [54, 546, 548, 60]
 Output
-548 54'''
+548 54
+------------------------------------------------------------------------------------------------------------------------------------------------------'''
+#TestPress.
+'''1. Write a program to print the reverse of the given string.
+Input
+codecode
+Output
+edocedoc
+Input Constraints
+1<=Length of string<=100
+Input string contains only lowercase characters ['a' to 'z'].'''
