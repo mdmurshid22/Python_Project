@@ -1,5 +1,5 @@
 with open('closure.py','r') as c:
-	r=c.read()
+	r=c.readlines()
 #	for x in c.readlines():
 #		print(x)
 #	for x in range(5):
