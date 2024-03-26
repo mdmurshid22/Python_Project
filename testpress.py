@@ -58,3 +58,10 @@ Input Constraints
 1<=Length of string<=100
 Input string contains only lowercase characters ['a' to 'z'].
 '''
+#Using Slice operator.
+'''lower_case = input("Enter Any Lower Case Characters:")
+print(lower_case[::-1])'''
+#Using Reversed and Join Methods.
+'''lower_case = input("Enter Any Lower Case Characters:")
+print(''.join(reversed(lower_case)))'''
+lower_case = input("Enter Any Lower Case Characters:")
