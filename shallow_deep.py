@@ -1,13 +1,13 @@
 a = {'a' : 'k', 7.5 : "idiot", True : False, 6+7J : 45}
 
-#b = a.copy() 
+b = a[::]
 
 print(a)
 
 print(b)
 
-a[7.5] = [6, 9, True, False, 6+9J]
+b[7.5] = [6, 9, True, False, 6+9J, 5-6j, 4*1J]
 
-print(a)
+print('A:',a)
 
-print(b)
+print('B:',b)
