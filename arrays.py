@@ -1,5 +1,7 @@
-import array
+from array import *
 
-arr = array.array('i',[1,2,3,4,5,6,7,8,9])
+#import array
 
-print(arr)
+#arr = array.array('i',[1,2,3,4,5,6,7,8,9])
+
+print(dir(array))
