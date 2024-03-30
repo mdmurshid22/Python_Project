@@ -30,4 +30,20 @@ finally:
 #else:
 #	print('Else Block')
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+try:
+	print('Try Block.')
+	print('idiot'+1)
+except:
+	print('Except Block.')
+else:
+	print('Else Block.')
+finally:
+	print('Finally Block.')
 '''
+#Only try, except, else, finally block not possible.
+#The try block without except or finally not possible.
+#Without try block -> except, else, finally we cannot use.
+#Multiple except block is possible.
+#One try block there Only one else, finally block is possible.
+#Without except else block cannot use.
+#The Flow is Try --> except.... --> else --> finnaly.
