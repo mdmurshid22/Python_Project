@@ -66,7 +66,7 @@ print(s.b)
 #s.a = 98
 print(s.a)
 print(s.b)
-s.dd()"""
+s.dd()
 
 class ins():
 	sch = 'Kamalia high school'
@@ -81,4 +81,13 @@ class ins():
 		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
 i = ins()
 i.mm('idiot', 23, 354)
-i.kk('kd', 24, 600)
+i.kk('kd', 24, 600)"""
+
+class clss:
+	'''This is class methods'''
+	a = 20
+	b = 30
+	@classmethod
+	def dd(cls):
+		print(cls.a, cls.b)
+clss.dd()
