@@ -23,6 +23,13 @@ class student:
 		self.address = address
 		print('Constractor!')
 
+class curtomer():
+	'''Method specifin information by using local variables.'''
+	def mt(self, amt, bal):
+		self.amount = amt
+		self.balance = bal
+		print('Amount is:', self.amount)
+
 s = student('idiot', 20, 'pavai')
 print(s.age)
 print(s.__dict__)
@@ -37,4 +44,7 @@ print()
 print(student.sch_addr)
 print(student.sch_name)
 print(s1.sch_addr)
+c = curtomer()
 print(s.sch_addr)
+#s.mt(66)
+print(c.mt(80,78))
