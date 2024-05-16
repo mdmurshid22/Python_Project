@@ -8,7 +8,7 @@ murshid.name = 'm'
 idiot.name = 'h'
 print('This is:',idiot.name)
 print(murshid.__dict__)
-print(k.__doc__)"""
+print(k.__doc__)
 class student:
 	'''This is a constractor by using init method and self keyword.
 	constractor is a special function.
@@ -47,4 +47,16 @@ print(s1.sch_addr)
 c = curtomer()
 print(s.sch_addr)
 #s.mt(66)
-print(c.mt(80,78))
+print(c.mt(80,78))"""
+
+class std:
+	a=99
+	def __init__(self):
+		self.b = 88
+
+s = std()
+print(s.a)
+print(s.b)
+s.a = 98
+print(s.a)
+print(s.b)
