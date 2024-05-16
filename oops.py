@@ -54,9 +54,15 @@ class std:
 	def __init__(self):
 		self.b = 88
 
+	def dd(self):
+		'''This is Instance Method'''
+		self.c = 76
+		print('Marks:', self.c)
+
 s = std()
 print(s.a)
 print(s.b)
 s.a = 98
 print(s.a)
 print(s.b)
+s.dd()
