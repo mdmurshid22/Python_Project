@@ -73,29 +73,32 @@ class ins():
 	sch_addr = 'Neravy'
 	'''This is class level variables / static variavles.'''
 	def mm(self, name, age, mark):
+		a = 909090
 		sch = 'Khs'
 		sch_addr = 'Karaikal'
-		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, sch, sch_addr))
+		print('Name: {} Age: {} Mark: {} School name: {} Address: {} a : {}'.format(name, age, mark, sch, sch_addr, a))
 
 	def kk(self, name, age, mark):
 		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
 i = ins()
 i.mm('idiot', 23, 354)
-i.kk('kd', 24, 600)"""
+i.kk('kd', 24, 600)
 
 class clss:
 	'''This is class methods
 	class method can access only class level variables/static variables
 	by using cls variables
-	and then use @classmethod'''
+	and then use @classmethod
+	can call callmethod by using both class name and objects'''
 	a = 20
 	b = 30
 	@classmethod
 	def dd(cls, name, total):
+		g = 67 
 		cls.n = name
 		cls.t = total
 		print(cls.n, cls.t, cls.a, cls.b)
 clss.dd('idiot', 354)
 c = clss()
 c.dd('k', 366)
-print(clss.__doc__)
+print(clss.__doc__)"""
