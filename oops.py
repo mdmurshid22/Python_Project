@@ -47,7 +47,7 @@ print(s1.sch_addr)
 c = curtomer()
 print(s.sch_addr)
 #s.mt(66)
-print(c.mt(80,78))"""
+print(c.mt(80,78))
 
 class std:
 	a=99
@@ -58,11 +58,12 @@ class std:
 		'''This is Instance Method'''
 		self.c = 76
 		print('Marks:', self.c)
+		print('Ins:', self.a)
 
 s = std()
 print(s.a)
 print(s.b)
-s.a = 98
+#s.a = 98
 print(s.a)
 print(s.b)
-s.dd()
+s.dd()"""
