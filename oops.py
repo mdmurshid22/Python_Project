@@ -85,7 +85,7 @@ i.kk('kd', 24, 600)"""
 
 class clss:
 	'''This is class methods
-	class method can access class level variables/static variables
+	class method can access only class level variables/static variables
 	by using cls variables
 	and then use @classmethod'''
 	a = 20
