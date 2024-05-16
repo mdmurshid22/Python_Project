@@ -73,7 +73,9 @@ class ins():
 	sch_addr = 'Neravy'
 	'''This is class level variables / static variavles.'''
 	def mm(self, name, age, mark):
-		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
+		sch = 'Khs'
+		sch_addr = 'Karaikal'
+		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, sch, sch_addr))
 
 	def kk(self, name, age, mark):
 		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
