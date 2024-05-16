@@ -84,7 +84,10 @@ i.mm('idiot', 23, 354)
 i.kk('kd', 24, 600)"""
 
 class clss:
-	'''This is class methods'''
+	'''This is class methods
+	class method can access class level variables/static variables
+	by using cls variables
+	and then use @classmethod'''
 	a = 20
 	b = 30
 	@classmethod
@@ -93,3 +96,6 @@ class clss:
 		cls.t = total
 		print(cls.n, cls.t, cls.a, cls.b)
 clss.dd('idiot', 354)
+c = clss()
+c.dd('k', 366)
+print(clss.__doc__)
