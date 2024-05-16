@@ -67,3 +67,16 @@ print(s.b)
 print(s.a)
 print(s.b)
 s.dd()"""
+
+class ins():
+	sch = 'Kamalia high school'
+	sch_addr = 'Neravy'
+	'''This is class level variables / static variavles.'''
+	def mm(self, name, age, mark):
+		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
+
+	def kk(self, name, age, mark):
+		print('Name: {} Age: {} Mark: {} School name: {} Address: {}'.format(name, age, mark, self.sch, self.sch_addr))
+i = ins()
+i.mm('idiot', 23, 354)
+i.kk('kd', 24, 600)
