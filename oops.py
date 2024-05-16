@@ -14,8 +14,11 @@ class student:
 	constractor is a special function.
 	when the object is creation contractor will executed automatically
 	python contain default constractor'''
-	def __init__(self, name, age, address):
-		self.name = name
+	#static variables / class specific variables.
+	sch_name = 'Kamalia high school'
+	sch_addr = "Neravy"
+	def __init__(self, na, age, address):
+		self.name = na
 		self.age = age
 		self.address = address
 		print('Constractor!')
@@ -24,4 +27,14 @@ s = student('idiot', 20, 'pavai')
 print(s.age)
 print(s.__dict__)
 print(s.__doc__)
-s1 = student('k', 21, 'karai') 
+s1 = student('k', 21, 'karai')
+print(s1.name)
+s.sch_name = 'Kaveri high school'
+s1.sch_addr = 'Karaikal'
+print(s.sch_name)
+print(s1.sch_name)
+print()
+print(student.sch_addr)
+print(student.sch_name)
+print(s1.sch_addr)
+print(s.sch_addr)
