@@ -88,6 +88,8 @@ class clss:
 	a = 20
 	b = 30
 	@classmethod
-	def dd(cls):
-		print(cls.a, cls.b)
-clss.dd()
+	def dd(cls, name, total):
+		cls.n = name
+		cls.t = total
+		print(cls.n, cls.t, cls.a, cls.b)
+clss.dd('idiot', 354)
