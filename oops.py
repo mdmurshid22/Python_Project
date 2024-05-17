@@ -101,4 +101,36 @@ class clss:
 clss.dd('idiot', 354)
 c = clss()
 c.dd('k', 366)
-print(clss.__doc__)"""
+print(clss.__doc__)
+
+class met:
+	a = 9
+	''' This is static method / utility method.
+	It access both local and class level variables.
+	and by using decorator symbols like.
+	@staticmethod and no self and cls varaibles'''
+	@staticmethod
+	def dis():
+		b = 8
+		print('This is static method!', b)
+
+m = met()
+m.dis()
+class met:
+	a = 9
+	def dis(self):
+		self.b = 8
+		print('This is static method!', self.a + self.b)
+
+m = met()
+m.dis()
+
+class met:
+	a = 9
+	@classmethod
+	def dis(cls):
+		cls.b = 8
+		print('This is static method!', cls.a + cls.b)
+
+m = met()
+m.dis()"""
