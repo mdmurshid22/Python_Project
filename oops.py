@@ -178,7 +178,7 @@ i2 = ins()
 i1.index(354)
 i2.index(607)"""
 
-class clss:
+"""class clss:
 	'''This is Class Method'''
 	a = 90
 	b = 80
@@ -192,3 +192,4 @@ class clss:
 clss.index('idiot')
 c = clss()
 c.index('k')
+print(clss.__doc__)"""
