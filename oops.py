@@ -134,3 +134,31 @@ class met:
 
 m = met()
 m.dis()"""
+
+class students:
+	''' student class data here.'''
+	def __init__(self, std_name, std_class, std_tamil_mark, std_english_mark, std_maths_mark, std_science_mark, std_social_mark):
+		self.std_name = std_name
+		self.std_class = std_class
+		self.std_tamil_mark = std_tamil_mark
+		self.std_english_mark = std_english_mark
+		self.std_maths_mark = std_maths_mark
+		self.std_science_mark = std_science_mark
+		self.std_social_mark = std_social_mark
+		print("Student Name:{} and Class:{}".format(self.std_name, self.std_class),end=" ")
+		print("Tamil:", self.std_tamil_mark)
+		print("English:", self.std_english_mark)
+		print("Maths:", self.std_maths_mark)
+		print("Science:", self.std_science_mark)
+		print("Social:", self.std_social_mark)
+
+Total = int(input("How many student data do you want:"))
+for std in range(Total):
+	std_name = input("Enter Student Name:")
+	std_class = int(input("Enter Student class between 1ts standard to 10th stardrad:"))
+	std_tamil_mark = input("Enter Tamil Mark:")
+	std_english_mark = input("Enter English Mark:")
+	std_maths_mark = input("Enter Maths Mark:")
+	std_science_mark = input("Enter Science Mark:")
+	std_social_mark = input("Enter Social Mark:")
+	std = students(std_name, std_class, std_tamil_mark, std_english_mark, std_maths_mark, std_science_mark, std_social_mark)
