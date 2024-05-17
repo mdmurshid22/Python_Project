@@ -133,7 +133,7 @@ class met:
 		print('This is static method!', cls.a + cls.b)
 
 m = met()
-m.dis()"""
+m.dis()
 
 class students:
 	''' student class data here.'''
@@ -161,4 +161,34 @@ for std in range(Total):
 	std_maths_mark = input("Enter Maths Mark:")
 	std_science_mark = input("Enter Science Mark:")
 	std_social_mark = input("Enter Social Mark:")
-	std = students(std_name, std_class, std_tamil_mark, std_english_mark, std_maths_mark, std_science_mark, std_social_mark)
+	std = students(std_name, std_class, std_tamil_mark, std_english_mark, std_maths_mark, std_science_mark, std_social_mark)"""
+
+"""class ins:
+	'''This is Instance method'''
+	a = 10
+	b = 20
+	def index(self, total):
+		c = 30
+		d = 40
+		self.t = total
+		print("A:{} and b:{} OR C:{} and D:{} = {}".format(self.a, self.b, c, d, self.t))
+
+i1 = ins()
+i2 = ins()
+i1.index(354)
+i2.index(607)"""
+
+class clss:
+	'''This is Class Method'''
+	a = 90
+	b = 80
+	@classmethod
+	def index(cls, name):
+		age = 23
+		addr = 'Karaikal'
+		cls.n = name
+		print("A:{} and B:{} Name:{} Age:{} Address:{}".format(cls.a, cls.b, cls.n, age, addr))
+
+clss.index('idiot')
+c = clss()
+c.index('k')
