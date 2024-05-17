@@ -179,7 +179,7 @@ i1.index(354)
 i2.index(607)"""
 
 """class clss:
-	'''This is Class Method'''
+	'''This is Class method'''
 	a = 90
 	b = 80
 	@classmethod
@@ -193,3 +193,17 @@ clss.index('idiot')
 c = clss()
 c.index('k')
 print(clss.__doc__)"""
+
+class sta:
+	'''This is Static method'''
+	#a = 99
+	#b = 88
+	@staticmethod
+	def index(total):
+		c = 77
+		d = 66
+		print("C:{} D:{} and total:{}".format(c, d, total))
+
+sta.index(366)
+s = sta()
+s.index(1599)
