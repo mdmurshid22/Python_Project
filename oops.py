@@ -194,7 +194,7 @@ c = clss()
 c.index('k')
 print(clss.__doc__)"""
 
-class sta:
+"""class sta:
 	'''This is Static method'''
 	#a = 99
 	#b = 88
@@ -207,3 +207,4 @@ class sta:
 sta.index(366)
 s = sta()
 s.index(1599)
+print(sta.__doc__)"""
