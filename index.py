@@ -1,0 +1,1 @@
+#1) Write a python program to given number is prime or not?
