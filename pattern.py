@@ -7,9 +7,17 @@ for i in range(1,num+1):
 
 #2)Hollow square pattern program in python.
 
-num = int(input('Enter Any Number of Rows:'))
+'''num = int(input('Enter Any Number of Rows:'))
 for i in range(1,num+1):
 	if(i==1) or (i==num):
 		print('* '*num)
 	else:
-		print('*'+'  '*(num-2),'*')
+		print('*'+'  '*(num-2),'*')'''
+
+#----------------------------------------------------------------------------------
+
+#3)Right triangle pattern in python.
+
+num = int(input('Enter any Number of Rows:'))
+for i in range(1,num+1):
+	print(' '*(num-i),'*'*(i))
