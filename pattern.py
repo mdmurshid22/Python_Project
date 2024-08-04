@@ -95,11 +95,14 @@ for i in range(1,num+1):
 
 #8)Diamond pattern program in python.
 
-num = int(input('Enter Any Number Of Rows:'))
+'''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
 	print(' '*(num-i)+'* '*i)
 for j in range(1,num):
-	print(' '*j+'* '*(num-j))
+	print(' '*j+'* '*(num-j))'''
+#----------------------------------------------------------------------------------
+
+#9)Hollow triangle pattern program in python.
 
 
 
