@@ -79,9 +79,11 @@ for j in range(1,num):
 	print(' '*(num-j-1)+'*'*(j+1))'''
 #----------------------------------------------------------------------------------
 
+#6)Pyramid pattern program in python.
 
-
-
+num = int(input('Enter Any Number Of Rows:'))
+for i in range(1,num+1):
+	print(' '*(num-i)+'* '*i)
 
 
 
