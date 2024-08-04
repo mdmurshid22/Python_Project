@@ -31,9 +31,36 @@ for i in range(1,num+1):
 
 #5)Downward triangle star pattern program in python.
 
+'''num = int(input('Enter Any Number Of Rows:'))
+for i in range(1,num+1):
+	print('*'*(num-i+1))'''
+#----------------------------------------------------------------------------------
+
+#Eg ->1 :-
+
 num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
-	print('*'*(num-i+1))
+	print('*'*i)
+for j in range(1,num):
+	print('*'*(num-j))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
