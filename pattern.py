@@ -81,9 +81,16 @@ for j in range(1,num):
 
 #6)Pyramid pattern program in python.
 
+'''num = int(input('Enter Any Number Of Rows:'))
+for i in range(1,num+1):
+	print(' '*(num-i)+'* '*i)'''
+#----------------------------------------------------------------------------------
+
+#7)Reversed Pyramid pattern program in python.
+
 num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
-	print(' '*(num-i)+'* '*i)
+	print(' '*(i-1)+'* '*(num-i+1))
 
 
 
