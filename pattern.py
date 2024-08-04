@@ -72,11 +72,12 @@ for j in range(1,num):
 
 #Eg ->5:-
 
-num = int(input('Enter Any Number of rows:'))
+'''num = int(input('Enter Any Number of rows:'))
 for i in range(1,num+1):
 	print(' '*(i-1)+'*'*(num-i+1))
 for j in range(1,num):
-	print(' '*(num-j-1)+'*'*(j+1))
+	print(' '*(num-j-1)+'*'*(j+1))'''
+#----------------------------------------------------------------------------------
 
 
 
