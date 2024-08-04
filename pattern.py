@@ -24,9 +24,16 @@ for i in range(1,num+1):
 
 #4)Left triangle pattern program in python.
 
-num = int(input('Enter Any Number of Rows:'))
+'''num = int(input('Enter Any Number of Rows:'))
 for i in range(1,num+1):
-	print('*'*i)
+	print('*'*i)'''
+#----------------------------------------------------------------------------------
+
+#5)Downward triangle star pattern program in python.
+
+num = int(input('Enter Any Number Of Rows:'))
+for i in range(1,num+1):
+	print('*'*(num-i+1))
 
 
 
