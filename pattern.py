@@ -56,20 +56,18 @@ for j in range(1,num):
 
 #Eg ->3:-
 
-num = int(input('Enter Any Number Of Rows:'))
+'''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
-	print(' '*(i-1)+'*'*(num-i+1))
+	print(' '*(i-1)+'*'*(num-i+1))'''
+#----------------------------------------------------------------------------------
 
+#Eg ->4:-
 
-
-
-
-
-
-
-
-
-
+num = int(input('Enter Any Number of rows:'))
+for i in range(1,num+1):
+	print('*'*(num-i+1))
+for j in range(1,num):
+	print('*'*(j+1))
 
 
 
