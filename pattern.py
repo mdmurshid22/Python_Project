@@ -126,7 +126,7 @@ for i in range(1,num+1):
 
 #11)Hollow diamond pattern program in python.
 
-num = int(input('Enter Any Number Of Rows:'))
+'''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
 	if(i<=2):
 		print(' '*(num-i)+'* '*i)
@@ -136,7 +136,8 @@ for j in range(1,num):
 	if(j==(num-1)):
 		print(' '*(num-1)+'*'*1)
 	else:
-		print(' '*j+'* '*1+'  '*(num-2-j)+'*'*1)
+		print(' '*j+'* '*1+'  '*(num-2-j)+'*'*1)'''
+#---------------------------------------------------------------------------------
 
 	
 
