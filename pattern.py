@@ -104,6 +104,14 @@ for j in range(1,num):
 
 #9)Hollow triangle pattern program in python.
 
+num = int(input('Enter Any Number Of Rows:'))
+for i in range(1,num+1):
+	if(i==1):
+		print('*'*i)
+	elif(i==num):
+		print('*'*(i+2))
+	else:
+		print('*'+' '*(i)+'*')
 
 
 
