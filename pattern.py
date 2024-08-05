@@ -116,12 +116,13 @@ for i in range(1,num+1):
 
 #10)Hollow pyramid star pattern program in python.
 
-num = int(input('Enter Any Number Of Rows:'))
+'''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
 	if(i<=2) or (i==num):
 	 	print(' '*(num-i)+'* '*i)
 	else:
-		print(' '*(num-i)+'* '*1+'  '*(i-2)+'*'*1)
+		print(' '*(num-i)+'* '*1+'  '*(i-2)+'*'*1)'''
+#---------------------------------------------------------------------------------
 
 
 
