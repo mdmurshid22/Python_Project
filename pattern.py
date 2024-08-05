@@ -36,7 +36,7 @@ for i in range(1,num+1):
 	print('*'*(num-i+1))'''
 #----------------------------------------------------------------------------------
 
-#Eg ->1 :-
+#Eg ->1 :-Right pascal pattern program in python.
 
 '''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
@@ -45,7 +45,7 @@ for j in range(1,num):
 	print('*'*(num-j))'''
 #----------------------------------------------------------------------------------
 
-#Eg ->2:-
+#Eg ->2:-Left pascal star pattern program in python.
 
 '''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,num+1):
@@ -147,6 +147,7 @@ for i in range(1,num+1):
 for j in range(1,num):
 	print(' '*j+'* '*(num-j))'''
 #---------------------------------------------------------------------------------
+
 
 
 
