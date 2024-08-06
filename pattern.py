@@ -150,7 +150,7 @@ for j in range(1,num):
 
 #13)Heart star pattern program in python.
 
-num = int(input('Enter Any Number Of Rows:'))
+'''num = int(input('Enter Any Number Of Rows:'))
 for i in range(1,3):
 	if(i==1):
 		if(num%2 != 0):
@@ -160,7 +160,8 @@ for i in range(1,3):
 	else:
 		print(' '*i+'* '*(num-i))
 for j in range(1,num+1):
-	print(' '*(j-1)+'* '*(num-j+1))
+	print(' '*(j-1)+'* '*(num-j+1))'''
+#---------------------------------------------------------------------------------
 
 
 
